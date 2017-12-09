@@ -95,7 +95,7 @@ const config = {
       },
       {
         test: /\.(otf|eot|svg|ttf|woff|woff2).*$/,
-        loader: 'url-loader?',
+        loader: 'url-loader?limit=20000',
       },
 
       //styles
