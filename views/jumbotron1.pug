@@ -1,0 +1,20 @@
+block content
+
+.jumbotron.jumbotron-fluid.bg-info
+  .container.text-xs-center
+    img#img1.img-circle.img-fluid.center-block(src='images/photos/sideshot185w.jpg', alt='Juliette profile')
+    .svg
+      //
+        <svg class="path">
+        <rect x="0" y="0" stroke="transparent" fill="transparent"></rect>
+        <text id="svgText" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle">Juliette Tworsey</text>
+        </svg>
+      h1#centerSVG
+        svg.path
+          rect(x='0', y='0', stroke='transparent', fill='transparent')
+          text#svgText(x='50%', y='50%', alignment-baseline='middle', text-anchor='middle') Juliette Tworsey
+    p.lead
+      a(href='#devSection')
+        span.lead1 Developer/
+      a(href='#musicSection')
+        span.lead2 Musician

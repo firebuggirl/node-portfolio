@@ -1,0 +1,21 @@
+#page--scrolling
+  span#page--scrolling-perc
+.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+  .container
+    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    a.navbar-brand.text-muted.hidden-xs(href='/') Juliette Tworsey
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.active
+          a(href='/') Home
+        li
+          a(href='#devSection') Dev Projects
+
+        li
+          a(href='#musicSection') Music Projects
+
+        li(class=(name === "index" ? "active" : undefined))
+          a(href="about") About

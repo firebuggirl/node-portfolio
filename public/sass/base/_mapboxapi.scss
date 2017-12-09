@@ -1,0 +1,56 @@
+#map{
+	float: left;
+	height: 500px;
+	width: 100%;
+
+
+ }
+
+
+
+ .map-container {
+ position: relative;
+ padding-bottom: 5%;
+ padding-top: 5%;
+ // height: 0;
+ overflow: hidden;
+ // @include bp(fullscreen){
+ //  margin-bottom: 20%;
+ // }
+ }
+
+// #nolaSvg{
+//   height: 50px;
+//   fill: $red;
+//
+// }
+
+#desertSvg{
+  height: 60px;
+  fill: $red;
+
+}
+#nolaText{
+  font-size: 16px;
+  margin-top: 12px;
+	padding-left: 5px;
+  font-family: $baskerville-font-stack;
+	@include bp(tablet){
+		font-size: 20px;
+		margin-top: 20px;
+	}
+}
+   #menu {
+     @include flex;
+    //  @include flex_justify_space_around;
+     @include flex_align_center;
+         position: absolute;
+         background: darken($mustard, 45%);
+          width: 60%;
+         color: $ivory;
+        //  padding: 10px;
+         font-family: 'Open Sans', sans-serif;
+         @include bp(tablet_small){
+           width: 25%;
+         }
+     }
