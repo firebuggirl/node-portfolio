@@ -39,3 +39,5 @@
    * Add Node.js buildpack via Heroku site
 
    ` git push heroku master `
+
+   * https://juliettet-node-portfolio.herokuapp.com/
