@@ -99,9 +99,26 @@
 
     }
 
+      @media screen and (max-width: 360px){//max-width 360
+          .box.opening , .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5{
+          height: 350px;
+
+       }
+
+    }
+
+    // @include bp(iPhone6){
+    //     .box.opening , .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5{
+    //     height: 380px;
+    //     width: 300px;
+    //     margin-top: 10px;
+    //     padding-bottom: 10px;
+    //   }
+    // }
+
     @media screen and (max-width: 480px) {
       .box.opening , .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5{
-      height: 350px;
+      height: 380px;
       width: 300px;
       margin-top: 10px;
       padding-bottom: 10px;
