@@ -35,11 +35,7 @@
 
    * First set up local environment variable(s) via Heroku site & set ENV to  production
 
-   `heroku config:add NODE_ENV=production`
+   ` heroku config:add NODE_ENV=production `
    * Add Node.js buildpack via Heroku site
 
    ` git push heroku master `
-
-   heroku git:remote -a juliettet-node-portfolio
-
-    heroku git:remote -a firebuggirl/node-portfolio
