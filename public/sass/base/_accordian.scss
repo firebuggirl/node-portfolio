@@ -71,8 +71,10 @@
     text-shadow:1px 1px 1px rgba(0,0,0,0.5)
 }
 .accordion .content {
+
      overflow:hidden;
      border: 1px solid $mustard; /* Make the border match the background so it fades in nicely */
+    // border: 100px solid $red;
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
 }
@@ -108,17 +110,17 @@
 .vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
     height: 250px;
     // border:2px solid darken($red, 20%);
-    background-color: darken($mustard, 20%);
+    background-color: darken($red, 20%);
 
      padding-top: 10%;
-     padding-bottom: 100px;
+     padding-bottom: 70px;
       @include bp(tablet_small){
         height: 400px;
         padding-top: 2%;
       }
    @include bp(fullscreen){
      text-align: center;
-     padding-bottom: 480px;
+     padding-bottom: 530px;
    }
 }
 
