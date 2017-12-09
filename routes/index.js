@@ -18,7 +18,7 @@ router.get('/musicSection', function(req, res, next) {
 
 // GET /about
 router.get('/about', function(req, res, next) {
-  return res.render('about', { title: 'About' });
+  return res.render('/about', { title: 'About' });
 });
 
 
