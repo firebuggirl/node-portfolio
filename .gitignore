@@ -18,7 +18,7 @@ build
 vagrant
 .lock-wscript
 
-*.css
+
 
 .env
 variables.env
