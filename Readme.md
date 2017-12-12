@@ -36,23 +36,47 @@
    * First set up local environment variable(s) via Heroku site & set ENV to  production
 
    ` heroku config:add NODE_ENV=production `
+
    * Add Node.js buildpack via Heroku site
 
    ` git push heroku master `
 
    * https://juliettet-node-portfolio.herokuapp.com/
 
+   * Add root domain
+
+   ` heroku domains:add www.juliettetworsey.com. `
+
+   * Sync with DNS/Create CNAME:
+
+   ` www.juliettetworsey.com.herokudns.com. `
+
+   * Point DNS @ new target, 1st verify DNS Target:
+
+   * ` heroku domains `
+
+   * Verify that CNAME is set up correctly:
+
+   * ` dig www.juliettetworsey.com cname +short `
+
+   * Upgrade dyno status, create certs
+
+     https://devcenter.heroku.com/articles/automated-certificate-management
+
+   ` heroku certs:auto:enable `
+
+   * Check Status:
+
+   * ` heroku certs auto `
 
    * Create SSL cert add on:
 
    ` heroku addons:create ssl:endpoint `
+
    * Verify certs:
 
    ` heroku certs:info `
+
    * Verify redirect to custom domain w/ SSL enabled:
 
    ` curl -vI https://www.juliettetworsey.com `
-
-   * Verify that CNAME is set up correctly:
-   *
-   * ` dig www.juliettetworsey.com cname +short `
