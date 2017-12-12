@@ -20,7 +20,7 @@ if(window.resize){
  var details0 = document.querySelector( '.details0' );
 
  details0.addEventListener('click', function(e){
-   e.preventDefault();
+    e.preventDefault();
 
    details0.innerHTML = "close";
 
@@ -31,7 +31,7 @@ if(window.resize){
 
  var modal0 = document.querySelector( '.modal0');
  var div1 = document.createElement( 'div' );
-   var myArr0 = JSON.parse( jsonData );
+ var myArr0 = JSON.parse( jsonData );
 
     myFunction(myArr0);
 
@@ -63,7 +63,7 @@ if(window.resize){
  // End 0 index JSON call
 /////////////////////////////////////
 
-  var details1 = document.querySelector( '.details' );
+  var details1 = document.querySelector( '.details1' );
 
   details1.addEventListener('click', function(e){
     e.preventDefault();
@@ -88,7 +88,7 @@ if(window.resize){
              var i;
 
 
-              out += '<p class="pEl">' + arr1[11].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr1[1].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -130,11 +130,11 @@ if(window.resize){
 
 
      function myFunction(arr2) {
-       var out = "";
+         var out = "";
          var i;
 
 
-              out += '<p class="pEl">' + arr2[1].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[2].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -186,7 +186,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[2].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[3].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -235,7 +235,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[3].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[4].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -284,7 +284,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[4].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[5].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -333,7 +333,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[5].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[6].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -384,7 +384,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[6].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[7].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -434,7 +434,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[7].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[8].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -482,7 +482,7 @@ if(window.resize){
          var i;
 
 
-              out += '<p class="pEl">' + arr2[8].text + '</p>' + '<br>';
+              out += '<p class="pEl">' + arr2[9].text + '</p>' + '<br>';
 
              // var content = document.querySelectorAll('modal-body');
 
@@ -603,47 +603,47 @@ if(window.resize){
 /////////////////////////////////////
 
 
-
-  var details12 = document.querySelector( '.details12' );
-
-  details12.addEventListener('click', function(e){
-    e.preventDefault();
-
-    details12.innerHTML = "close";
-
-    details12.addEventListener('click', function(){
-      modal12.style.display = "none";
-      window.location.reload(); //reload to close modal completely
-    });
-
-  var modal12 = document.querySelector( '.modal12');
-  var div1 = document.createElement( 'div' );
-    var myArr2 = JSON.parse( jsonData );
-
-     myFunction(myArr2);
-
-
-     function myFunction(arr2) {
-       var out = "";
-         var i;
-
-
-              out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
-
-             // var content = document.querySelectorAll('modal-body');
-
-
-      var showJSON2 = function()  {
-       //  document.getElementById("jsontest2").innerHTML = out;
-          div1.innerHTML = out;
-          modal12.appendChild( div1 );
-      };
-      showJSON2();
-     }
-
-
-
-  });
+  //
+  // var details12 = document.querySelector( '.details12' );
+  //
+  // details12.addEventListener('click', function(e){
+  //   e.preventDefault();
+  //
+  //   details12.innerHTML = "close";
+  //
+  //   details12.addEventListener('click', function(){
+  //     modal12.style.display = "none";
+  //     window.location.reload(); //reload to close modal completely
+  //   });
+  //
+  // var modal12 = document.querySelector( '.modal12');
+  // var div1 = document.createElement( 'div' );
+  //   var myArr2 = JSON.parse( jsonData );
+  //
+  //    myFunction(myArr2);
+  //
+  //
+  //    function myFunction(arr2) {
+  //      var out = "";
+  //        var i;
+  //
+  //
+  //             out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
+  //
+  //            // var content = document.querySelectorAll('modal-body');
+  //
+  //
+  //     var showJSON2 = function()  {
+  //      //  document.getElementById("jsontest2").innerHTML = out;
+  //         div1.innerHTML = out;
+  //         modal12.appendChild( div1 );
+  //     };
+  //     showJSON2();
+  //    }
+  //
+  //
+  //
+  // });
 
 ///////////////////////////////////////
 // End 12th JSON call

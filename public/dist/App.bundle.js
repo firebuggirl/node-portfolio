@@ -5293,7 +5293,7 @@ var posts = [{
 
 }, {
   "id": 1,
-  "text": "<h1>Personal Profile Page</h1><h3>Treehouse Front End Tech Degree Project 1 tasks:</h3><br><p>Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web. Share your finished project on GitHub, a website used by teams of programmers to share and work on programming code.</p><br><h3>Tools and Methods used</h3><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
+  "text": "<h1>Customize Wordpress</h1><h3>Task: Customize Genesis child theme Centric Pro:</h3><p>Create a modular workflow with automation along with custom Instagram and Spotify page templates.</p><h4>Tools and Methods used:</h4><br><li>Google page speed</li><li>Gulp</li><li>Gulp Sass</li><li>Gulp Images for image optimization</li><li>Gulp Uglify CSS</li><li>Gulp Clean CSS</li><li>Gulp Concat</li><li>Gulp Uglify</li><li>BrowserSync + Reload</li>"
 
 }, {
   "id": 2,
@@ -5323,19 +5323,11 @@ var posts = [{
 
 }, {
   "id": 9,
-  "text": "<h1>Public API</h1><h3>Treehouse Front End Tech Degree Project 10 task:</h3><br><p>Use Javascript programming to create a gallery of information and images by communication with a third-party API (Application Programming Interface).</p><h4>Tools and Methods used:</h4><br><li>Spotify Public API</li><li>Flickr Public API</li><li>IMDB Public API</li><li>Sass</li><li>Gulp/Node.js</li><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
-
-}, {
-  "id": 10,
   "text": "<h1>Web Optimization</h1><h3>Treehouse Front End Tech Degree Project 11 task:</h3><br><p>Performance_Optimization Apply the skills learned for optimization of graphics, HTML, CSS, and JavaScript to take a poorly optimized site and reduce the total load size to under 1.3mb and total requests to less than 27. Students will need to analyze the assets they've been provided to see where optimizations can and need to be made, make those optimizations, and measure their success. Multiple analyzation, optimization, and measuring cycles may be required.</p><h4>Tools and Methods used:</h4><br><li>Google page speed</li><br><li>Node phantomas/http-server</li><br><li>Gulp Images for image optimization<li><br><li>Gulp minifyHTML, minifyCSS, Gulp Watch, Gulp connect, Gulp concatScripts, Gulp build (for automation)</li><br><li>W3C Markup Validation Service</li><br><li>W3C HTML Markup Validation Service</li><br><li>JS Hint</li>"
 
 }, {
-  "id": 11,
+  "id": 10,
   "text": "<h1>CSS to Sass</h1><h3>Treehouse Front End Tech Degree Project 5 task:</h3><p>Use programming principles to refactor a standard CSS stylesheet to Sass by identifying repeating patterns, using variables, and adding mixins.</p><h4>Tools and Methods used:</h4><br><li>Sass</li><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
-
-}, {
-  "id": 12,
-  "text": "<h1>Customize Wordpress</h1><h3>Task: Customize Genesis child theme Centric Pro:</h3><p>Create a modular workflow with automation along with custom Instagram and Spotify page templates.</p><h4>Tools and Methods used:</h4><br><li>Google page speed</li><li>Gulp</li><li>Gulp Sass</li><li>Gulp Images for image optimization</li><li>Gulp Uglify CSS</li><li>Gulp Clean CSS</li><li>Gulp Concat</li><li>Gulp Uglify</li><li>BrowserSync + Reload</li>"
 
 }],
     jsonData = JSON.stringify(posts);
@@ -5749,7 +5741,7 @@ details0.addEventListener('click', function (e) {
 // End 0 index JSON call
 /////////////////////////////////////
 
-var details1 = document.querySelector('.details');
+var details1 = document.querySelector('.details1');
 
 details1.addEventListener('click', function (e) {
   e.preventDefault();
@@ -5771,7 +5763,7 @@ details1.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr1[11].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr1[1].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -5811,7 +5803,7 @@ details2.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[1].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[2].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -5852,7 +5844,7 @@ details3.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[2].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[3].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -5893,7 +5885,7 @@ details4.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[3].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[4].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -5934,7 +5926,7 @@ details5.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[4].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[5].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -5975,7 +5967,7 @@ details6.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[5].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[6].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -6016,7 +6008,7 @@ details7.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[6].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[7].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -6057,7 +6049,7 @@ details8.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[7].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[8].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -6098,7 +6090,7 @@ details9.addEventListener('click', function (e) {
     var out = "";
     var i;
 
-    out += '<p class="pEl">' + arr2[8].text + '</p>' + '<br>';
+    out += '<p class="pEl">' + arr2[9].text + '</p>' + '<br>';
 
     // var content = document.querySelectorAll('modal-body');
 
@@ -6199,41 +6191,47 @@ details11.addEventListener('click', function (e) {
 /////////////////////////////////////
 
 
-var details12 = document.querySelector('.details12');
-
-details12.addEventListener('click', function (e) {
-  e.preventDefault();
-
-  details12.innerHTML = "close";
-
-  details12.addEventListener('click', function () {
-    modal12.style.display = "none";
-    window.location.reload(); //reload to close modal completely
-  });
-
-  var modal12 = document.querySelector('.modal12');
-  var div1 = document.createElement('div');
-  var myArr2 = JSON.parse(jsonData);
-
-  myFunction(myArr2);
-
-  function myFunction(arr2) {
-    var out = "";
-    var i;
-
-    out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
-
-    // var content = document.querySelectorAll('modal-body');
-
-
-    var showJSON2 = function showJSON2() {
-      //  document.getElementById("jsontest2").innerHTML = out;
-      div1.innerHTML = out;
-      modal12.appendChild(div1);
-    };
-    showJSON2();
-  }
-});
+//
+// var details12 = document.querySelector( '.details12' );
+//
+// details12.addEventListener('click', function(e){
+//   e.preventDefault();
+//
+//   details12.innerHTML = "close";
+//
+//   details12.addEventListener('click', function(){
+//     modal12.style.display = "none";
+//     window.location.reload(); //reload to close modal completely
+//   });
+//
+// var modal12 = document.querySelector( '.modal12');
+// var div1 = document.createElement( 'div' );
+//   var myArr2 = JSON.parse( jsonData );
+//
+//    myFunction(myArr2);
+//
+//
+//    function myFunction(arr2) {
+//      var out = "";
+//        var i;
+//
+//
+//             out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
+//
+//            // var content = document.querySelectorAll('modal-body');
+//
+//
+//     var showJSON2 = function()  {
+//      //  document.getElementById("jsontest2").innerHTML = out;
+//         div1.innerHTML = out;
+//         modal12.appendChild( div1 );
+//     };
+//     showJSON2();
+//    }
+//
+//
+//
+// });
 
 ///////////////////////////////////////
 // End 12th JSON call

@@ -41,3 +41,18 @@
    ` git push heroku master `
 
    * https://juliettet-node-portfolio.herokuapp.com/
+
+
+   * Create SSL cert add on:
+
+   ` heroku addons:create ssl:endpoint `
+   * Verify certs:
+
+   ` heroku certs:info `
+   * Verify redirect to custom domain w/ SSL enabled:
+
+   ` curl -vI https://www.juliettetworsey.com `
+
+   * Verify that CNAME is set up correctly:
+   *
+   * ` dig www.juliettetworsey.com cname +short `
