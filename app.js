@@ -38,7 +38,9 @@ try {
 const app = express();
 
 // enable ssl redirect
-app.use(sslRedirect());
+app.use(sslRedirect([
+  'production'
+  ]));
 
 app.locals.env = process.env;
 
