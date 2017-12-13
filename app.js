@@ -1,5 +1,5 @@
 //'use strict';
-const sslRedirect = require('heroku-ssl-redirect');
+//const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -38,9 +38,9 @@ try {
 const app = express();
 
 // enable ssl redirect
-app.use(sslRedirect([
-  'production'
-  ]));
+// app.use(sslRedirect([
+//   'production'
+//   ]));
 
 app.locals.env = process.env;
 
