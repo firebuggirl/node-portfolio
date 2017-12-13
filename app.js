@@ -1,11 +1,12 @@
 //'use strict';
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 //var connect = require('connect');
 const expressValidator = require('express-validator');//applies validation methods to every single request
-var sassMiddleware = require('node-sass-middleware');
+const sassMiddleware = require('node-sass-middleware');
 const routes = require('./routes/index');
 const helpers = require('./helpers');
 const errorHandlers = require('./handlers/errorHandlers');
@@ -31,8 +32,14 @@ try {
 }
 
 
+
+
 // create Express app
 const app = express();
+
+// enable ssl redirect
+app.use(sslRedirect());
+
 app.locals.env = process.env;
 
 
