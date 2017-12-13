@@ -28,10 +28,6 @@ const fs = require("fs");
 //   };
 // };
 
-// Instruct the app
-// to use the forceSSL
-// middleware
-//app.use(forceSSL());
 
 //require('dotenv').load();
 //var jquery = fs.readFileSync("./node_modules/jquery/dist/jquery.min.js", "utf-8");
@@ -60,7 +56,13 @@ const app = express();
 //   'production'
 //   ]));
 
-app.locals.env = process.env;
+app.all('*',function(req,res,next){
+  if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
+    res.redirect(`https://${req.get('host')}`+req.url);
+  } else {
+    next(); /* Continue to other routes if we're not redirecting */
+  }
+});
 
 
 // view engine setup
