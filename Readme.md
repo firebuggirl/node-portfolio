@@ -67,7 +67,7 @@
 
    * Check Status:
 
-   * ` heroku certs auto `
+   * ` heroku certs:auto `
 
    * Create SSL cert add on:
 
