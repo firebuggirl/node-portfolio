@@ -11,26 +11,8 @@ const routes = require('./routes/index');
 const helpers = require('./helpers');
 const errorHandlers = require('./handlers/errorHandlers');
 
-//const jsdom = require("jsdom");
-//var jsdom = require("jsdom/lib/old-api.js");
 const fs = require("fs");
 
-// If an incoming request uses
-// a protocol other than HTTPS,
-// redirect that request to the
-// same url but with HTTPS
-// const forceSSL = function() {
-//   return function (req, res, next) {
-//     if (req.headers['x-forwarded-proto'] !== 'https') {
-//       return res.redirect(['https://', req.get('Host'), req.url].join(''));
-//     }
-//     next();
-//   };
-// };
-
-
-//require('dotenv').load();
-//var jquery = fs.readFileSync("./node_modules/jquery/dist/jquery.min.js", "utf-8");
 
 var pugBeautify = require('pug-beautify');
 var code = fs.readFileSync('views/layout.pug','utf8');
@@ -45,16 +27,9 @@ try {
     // Error occurred
 }
 
-
-
-
 // create Express app
 const app = express();
 
-// enable ssl redirect
-// app.use(sslRedirect([
-//   'production'
-//   ]));
 
 app.all('*',function(req,res,next){
   if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
@@ -92,11 +67,6 @@ app.use((req, res, next) => {
 
 // After allllll that above middleware, we finally handle our own routes!
 app.use('/', routes);
-
-//http.createServer(app).listen(port);
-//console.log('Server listening on port ' + port);
-// console.log('srcPath is ' + srcPath);
-// console.log('destPath is ' + destPath);
 
 
 // If that above routes didnt work, we 404 them and forward to error handler
