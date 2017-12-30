@@ -1,7 +1,5 @@
 'use strict';
-
-const cookieSession = require('cookie-session');
-
+//const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -12,9 +10,6 @@ const sassMiddleware = require('node-sass-middleware');
 const routes = require('./routes/index');
 const helpers = require('./helpers');
 const errorHandlers = require('./handlers/errorHandlers');
-
-const helmet = require('helmet');
-const session = require('express-session');//https://expressjs.com/en/advanced/best-practice-security.html
 
 const fs = require("fs");
 
@@ -64,32 +59,11 @@ app.all('*',function(req,res,next){
 app.set('views', path.join(__dirname, 'views')); // this is the folder where we keep our pug files
 app.set('view engine', 'pug'); // we use the engine pug, mustache or EJS work great too
 
-
-// app.set('trust proxy', 1);// trust first proxy
-// app.use(session({
-//   secret: 's3Cur3',
-//   name: 'sessionId'
-// }));
 // serves up static files from the public folder. Anything in public/ will just be served up as the file it is
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(helmet());
+
 // Takes the raw requests and turns them into usable properties on req.body
-
-// let expiryDate = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
-// app.use(session({
-//   name: 'session',
-//   keys: ['key1', 'key2'],
-//   cookie: {
-//     secure: true,
-//     httpOnly: true, //protect against cross-site scripting attacks
-//      domain: 'https://juliettet-node-portfolio.herokuapp.com/',
-//     // path: 'foo/bar',
-//     expires: expiryDate
-//   }
-// }));
-
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
