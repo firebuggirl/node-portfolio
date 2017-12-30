@@ -1,6 +1,7 @@
 'use strict';
 //const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
+const helmet = require('helmet');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
@@ -29,7 +30,7 @@ try {
 
 // create Express app
 const app = express();
-
+app.use(helmet());
 
 app.all('*',function(req,res,next){
   if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
