@@ -69,10 +69,6 @@
 
    * ` heroku certs:auto `
 
-   * Create SSL cert add on:
-
-   ` heroku addons:create ssl:endpoint `
-
    * Verify certs:
 
    ` heroku certs:info `

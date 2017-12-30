@@ -1,4 +1,4 @@
-//'use strict';
+'use strict';
 //const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const path = require('path');
@@ -38,6 +38,20 @@ app.all('*',function(req,res,next){
     next(); /* Continue to other routes if we're not redirecting */
   }
 });
+
+// Set headers https://www.smashingmagazine.com/2017/04/secure-web-app-http-headers/
+
+function requestHandler(req, res) {
+    res.setHeader('Cache-Control','no-cache,no-store,max-age=0,must-revalidate');
+    res.setHeader('Pragma','no-cache');
+    res.setHeader('Expires','-1');
+    res.setHeader('Strict-Transport-Security','max-age=31536000; includeSubDomains; preload');
+    res.setHeader('X-XSS-Protection','1;mode=block');
+}
+
+
+
+app.use(express.static('public', requestHandler));
 
 
 // view engine setup
