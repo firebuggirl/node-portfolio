@@ -83,8 +83,8 @@ app.use(session({
   cookie: {
     secure: true,
     httpOnly: true, //protect against cross-site scripting attacks
-    domain: 'https://juliettetworsey.com',
-    path: 'foo/bar',
+    // domain: 'https://juliettetworsey.com',
+    // path: 'foo/bar',
     expires: expiryDate
   }
 }));
