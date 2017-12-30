@@ -65,11 +65,11 @@ app.set('views', path.join(__dirname, 'views')); // this is the folder where we 
 app.set('view engine', 'pug'); // we use the engine pug, mustache or EJS work great too
 
 
-app.set('trust proxy', 1);// trust first proxy
-app.use(session({
-  secret: 's3Cur3',
-  name: 'sessionId'
-}));
+// app.set('trust proxy', 1);// trust first proxy
+// app.use(session({
+//   secret: 's3Cur3',
+//   name: 'sessionId'
+// }));
 // serves up static files from the public folder. Anything in public/ will just be served up as the file it is
 app.use(express.static(path.join(__dirname, 'public')));
 
