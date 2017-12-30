@@ -76,18 +76,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(helmet());
 // Takes the raw requests and turns them into usable properties on req.body
 
-let expiryDate = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
-app.use(session({
-  name: 'session',
-  keys: ['key1', 'key2'],
-  cookie: {
-    secure: true,
-    httpOnly: true, //protect against cross-site scripting attacks
-     domain: 'https://juliettet-node-portfolio.herokuapp.com/',
-    // path: 'foo/bar',
-    expires: expiryDate
-  }
-}));
+// let expiryDate = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
+// app.use(session({
+//   name: 'session',
+//   keys: ['key1', 'key2'],
+//   cookie: {
+//     secure: true,
+//     httpOnly: true, //protect against cross-site scripting attacks
+//      domain: 'https://juliettet-node-portfolio.herokuapp.com/',
+//     // path: 'foo/bar',
+//     expires: expiryDate
+//   }
+// }));
 
 
 app.use(bodyParser.json());
