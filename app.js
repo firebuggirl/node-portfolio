@@ -1,5 +1,5 @@
 'use strict';
-//const sslRedirect = require('heroku-ssl-redirect');
+
 const cookieSession = require('cookie-session');
 
 const express = require('express');
