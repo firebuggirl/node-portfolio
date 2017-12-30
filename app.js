@@ -76,7 +76,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(helmet());
 // Takes the raw requests and turns them into usable properties on req.body
 
-let expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
+let expiryDate = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
 app.use(session({
   name: 'session',
   keys: ['key1', 'key2'],
