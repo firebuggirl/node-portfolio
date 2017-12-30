@@ -83,7 +83,7 @@ app.use(session({
   cookie: {
     secure: true,
     httpOnly: true, //protect against cross-site scripting attacks
-    // domain: 'https://juliettetworsey.com',
+     domain: 'https://juliettet-node-portfolio.herokuapp.com/',
     // path: 'foo/bar',
     expires: expiryDate
   }
