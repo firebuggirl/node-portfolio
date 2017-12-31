@@ -76,3 +76,7 @@
    * Verify redirect to custom domain w/ SSL enabled:
 
    ` curl -vI https://www.juliettetworsey.com `
+
+## Check headers:
+
+https://securityheaders.io/
