@@ -1,11 +1,10 @@
 'use strict';
-//const sslRedirect = require('heroku-ssl-redirect');
+
 const express = require('express');
-const helmet = require('helmet');
+const helmet = require('helmet');//initiate security headers
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-//var connect = require('connect');
 const expressValidator = require('express-validator');//applies validation methods to every single request
 const sassMiddleware = require('node-sass-middleware');
 const routes = require('./routes/index');
@@ -47,20 +46,6 @@ app.all('*',function(req,res,next){
   }
 });
 
-// Set headers https://www.smashingmagazine.com/2017/04/secure-web-app-http-headers/
-// curl -vI https://www.juliettetworsey.com
-
-// function requestHandler(req, res) {
-//     res.setHeader('Cache-Control','no-cache,no-store,max-age=0,must-revalidate');
-//     res.setHeader('Pragma','no-cache');
-//     res.setHeader('Expires','-1');
-//     res.setHeader('Strict-Transport-Security','max-age=31536000; includeSubDomains; preload');
-//     res.setHeader('X-XSS-Protection','1;mode=block');
-// }
-//
-//
-//
-// app.use(express.static('public', requestHandler));
 
 
 // view engine setup
