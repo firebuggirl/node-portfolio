@@ -30,7 +30,8 @@ try {
 
 // create Express app
 const app = express();
-app.use(helmet());
+app.use(helmet());//get security report here: https://securityheaders.io/
+app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
 
 app.all('*',function(req,res,next){
   if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
