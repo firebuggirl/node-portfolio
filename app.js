@@ -32,6 +32,12 @@ try {
 const app = express();
 app.use(helmet());//get security report here: https://securityheaders.io/
 app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
+app.use(helmet.contentSecurityPolicy({
+  directives: {
+    defaultSrc: ["'self'"],
+    styleSrc: ["'self'", 'maxcdn.bootstrapcdn.com']
+  }
+}));
 
 app.all('*',function(req,res,next){
   if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
