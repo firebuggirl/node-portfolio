@@ -80,3 +80,10 @@
 ## Check headers:
 
 https://securityheaders.io/
+
+
+## SNYK test for vulnerabilities:
+
+` snyk test `
+
+- Run `snyk wizard` to explore remediation options
