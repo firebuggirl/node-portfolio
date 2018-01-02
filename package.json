@@ -24,7 +24,7 @@
     "file-loader": "^1.1.5",
     "helmet": "^3.9.0",
     "jsdom": "^11.3.0",
-    "mapbox-gl": "^0.41.0",
+    "mapbox-gl": "0.43.0",
     "node-sass-middleware": "^0.9.8",
     "nodemon": "^1.12.1",
     "pug": "^2.0.0-rc.4",
