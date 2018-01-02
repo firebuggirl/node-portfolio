@@ -8,7 +8,10 @@
     "start": "node ./start.js",
     "watch": "nodemon ./start.js --ignore public/",
     "dev": "concurrently 'npm run watch' 'npm run assets' --names '💻,📦' --prefix name",
-    "assets": "webpack -w --display-max-modules 0"
+    "assets": "webpack -w --display-max-modules 0",
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "browserslist": "last 2 versions",
   "author": "Juliette Tworsey",
@@ -67,5 +70,6 @@
     "webpack-concat-plugin": "^1.4.2",
     "webworkify": "^1.4.0",
     "webworkify-webpack": "^2.1.0"
-  }
+  },
+  "snyk": true
 }
