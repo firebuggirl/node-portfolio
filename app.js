@@ -30,11 +30,12 @@ try {
 // create Express app
 const app = express();
 app.use(helmet());//get security report here: https://securityheaders.io/
-// app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
+//app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
 // app.use(helmet.contentSecurityPolicy({
 //   directives: {
-//     defaultSrc: ["'self'"],
-//     styleSrc: ["'self'", 'maxcdn.bootstrapcdn.com']
+//     defaultSrc: ["'self'", 'https://www.juliettetworsey.com/', 'http://localhost:7777/'],
+//     styleSrc: ["'self'", 'maxcdn.bootstrapcdn.com'],
+//     sandbox: ['allow-forms', 'allow-scripts']
 //   }
 // }));
 
