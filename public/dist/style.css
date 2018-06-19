@@ -6544,6 +6544,11 @@ li {
   display: flex;
   justify-content: center; }
 
+.links {
+  color: #fbe3ab;
+  font-size: 22px;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
+
 .accordion {
   margin-top: 4.375em;
   justify-content: center;

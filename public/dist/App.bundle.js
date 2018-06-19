@@ -5330,6 +5330,14 @@ var posts = [{
   "id": 10,
   "text": "<h1>CSS to Sass</h1><h3>Treehouse Front End Tech Degree Project 5 task:</h3><p>Use programming principles to refactor a standard CSS stylesheet to Sass by identifying repeating patterns, using variables, and adding mixins.</p><h4>Tools and Methods used:</h4><br><li>Sass</li><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
 
+}, {
+  "id": 11,
+  "text": "<h1>MEAN Stack App w/Auth0</h1><h3>Task:</h3><p>Create a MEAN Stack app with Auth0 user authentication</p><h4>Tools and Methods used:</h4><li>Angular 6 CLI</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Auth0</li><li>Docker</li>"
+
+}, {
+  "id": 12,
+  "text": "<h1>MEAN CRUD</h1><h3>Task:</h3><p>Create a MEAN Stack CRUD application and deploy to Heroku, Azure, and Digital Ocean.</p><h4>Tools and Methods used:</h4><br><li>Angular 6 CLI</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Auth0</li><li>Docker</li><li>Azure CLI</li><li>Ssh-keygen</li><li>Digital Ocean Droplet Cloud Computing</li>"
+
 }],
     jsonData = JSON.stringify(posts);
 
@@ -5342,10 +5350,10 @@ var posts = [{
 
 var socials = Array.from(document.querySelectorAll('.socialCerts'));
 var filtered = socials.filter(function (social) {
-  return social.style.display = "none";
+  return social.style.display = 'none';
 });
 
-var ps = document.querySelectorAll("[class*=boxes]");
+var ps = document.querySelectorAll('[class*=boxes]');
 var _iteratorNormalCompletion = true;
 var _didIteratorError = false;
 var _iteratorError = undefined;
@@ -5356,14 +5364,14 @@ try {
 
     boxes.addEventListener('click', function () {
       console.log(this.textContent);
-      console.log("Hello");
+      console.log('Hello');
       var socials = Array.from(document.querySelectorAll('.socialCerts'));
       var filtered = socials.filter(function (number, index, array) {
         return index === array.indexOf(number);
       });
       console.log(filtered);
     });
-    filtered[0].style.display = "none";
+    filtered[0].style.display = 'none';
   }
 } catch (err) {
   _didIteratorError = true;
@@ -5387,32 +5395,38 @@ var hiddenBoxes = hideBoxesOnClick.filter(function (number, index, array) {
 console.log(hiddenBoxes);
 
 var secImg = document.getElementById('secImg');
-secImg.style.display = "none";
+secImg.style.display = 'none';
 var box = document.querySelector('.box');
-box.style.display = "flex";
-box.style.justifyContent = "center";
-box.style.alignContent = "center";
-box.style.alignItems = "center";
+box.style.display = 'flex';
+box.style.justifyContent = 'center';
+box.style.alignContent = 'center';
+box.style.alignItems = 'center';
 box.addEventListener('click', function () {
   var _this = this;
 
   var first = 'opening';
   var second = 'open';
-  secImg.style.display = "block";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[0].style.display = "block";
+  secImg.style.display = 'block';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[0].style.display = 'block';
+  filtered[0].style.marginBottom = '10px';
 
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
-  // socials.style.display = "block";
+  // const notZeroIndex = hiddenBoxes
+  //   .filter(hiddenBox => hiddenBox !== hiddenBox[0]);
+  //   notZeroIndex.style.display = 'none';
+
+
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
+  // socials.style.display = 'block';
   // const filtered = socials
-  //   .map(social => social.style.display ="block");
+  //   .map(social => social.style.display ='block');
 
   if (this.classList.contains(first)) {
     var _ref = [second, first];
@@ -5422,26 +5436,26 @@ box.addEventListener('click', function () {
     second = _ref[1];
 
 
-    secImg.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
 
-    filtered[0].style.display = "none";
+    filtered[0].style.display = 'none';
 
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
-    //  hiddenBoxes[0].style.display = "block";
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    //  hiddenBoxes[0].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -5454,30 +5468,30 @@ box.addEventListener('click', function () {
 ////////////////////////// MongoDB Basics
 
 var secImg2 = document.getElementById('secImg2');
-secImg2.style.display = "none";
+secImg2.style.display = 'none';
 var box2 = document.querySelector('.box2');
-box2.style.display = "flex";
-box2.style.justifyContent = "center";
-box2.style.alignContent = "center";
-box2.style.alignItems = "center";
+box2.style.display = 'flex';
+box2.style.justifyContent = 'center';
+box2.style.alignContent = 'center';
+box2.style.alignItems = 'center';
 box2.addEventListener('click', function () {
   var _this2 = this;
 
   var first = 'opening2';
   var second = 'open2';
-  secImg2.style.display = "block";
-  secImg2.style.marginTop = "10%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[1].style.display = "block";
-  // socials.style.display = "block";
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
+  secImg2.style.display = 'block';
+  secImg2.style.marginTop = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[1].style.display = 'block';
+  // socials.style.display = 'block';
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref2 = [second, first];
@@ -5487,26 +5501,26 @@ box2.addEventListener('click', function () {
     second = _ref2[1];
 
 
-    secImg2.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg2.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
 
-    filtered[1].style.display = "none";
+    filtered[1].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
-    //hiddenBoxes[1].style.display = "block";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    //hiddenBoxes[1].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -5519,30 +5533,31 @@ box2.addEventListener('click', function () {
 ///////////////////////////// MongoDB for Node.js
 
 var secImg3 = document.getElementById('secImg3');
-secImg3.style.display = "none";
+secImg3.style.display = 'none';
 var box3 = document.querySelector('.box3');
-box3.style.display = "flex";
-box3.style.justifyContent = "center";
-box3.style.alignContent = "center";
-box3.style.alignItems = "center";
+box3.style.display = 'flex';
+box3.style.justifyContent = 'center';
+box3.style.alignContent = 'center';
+box3.style.alignItems = 'center';
 box3.addEventListener('click', function () {
   var _this3 = this;
 
   var first = 'opening3';
   var second = 'open3';
-  secImg3.style.display = "block";
-  secImg3.style.paddingBottom = "5%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[2].style.display = "block";
-  // socials.style.display = "block";
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
+  secImg3.style.display = 'block';
+  secImg3.style.paddingBottom = '5%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[2].style.display = 'block';
+  filtered[2].style.marginBottom = '0px';
+  // socials.style.display = 'block';
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref3 = [second, first];
@@ -5552,25 +5567,25 @@ box3.addEventListener('click', function () {
     second = _ref3[1];
 
 
-    secImg3.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg3.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
-    filtered[2].style.display = "none";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+    filtered[2].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
-    //hiddenBoxes[2].style.display = "block";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    //hiddenBoxes[2].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -5583,12 +5598,12 @@ box3.addEventListener('click', function () {
 /////////////////////// Treehouse Front End Tech Degree
 
 var secImg4 = document.getElementById('secImg4');
-secImg4.style.display = "none";
+secImg4.style.display = 'none';
 var box4 = document.querySelector('.box4');
-box4.style.display = "flex";
-box4.style.justifyContent = "center";
-box4.style.alignContent = "center";
-box4.style.alignItems = "center";
+box4.style.display = 'flex';
+box4.style.justifyContent = 'center';
+box4.style.alignContent = 'center';
+box4.style.alignItems = 'center';
 
 box4.addEventListener('click', function () {
   var _this4 = this;
@@ -5596,19 +5611,19 @@ box4.addEventListener('click', function () {
   var first = 'opening4';
   var second = 'open4';
 
-  secImg4.style.display = "block";
-  secImg4.style.marginTop = "20%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[3].style.display = "block";
+  secImg4.style.display = 'block';
+  secImg4.style.marginTop = '20%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[3].style.display = 'block';
 
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref4 = [second, first];
@@ -5618,25 +5633,25 @@ box4.addEventListener('click', function () {
     second = _ref4[1];
 
 
-    secImg4.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg4.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
-    filtered[3].style.display = "none";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+    filtered[3].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
-    //  hiddenBoxes[3].style.display = "block";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    //  hiddenBoxes[3].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -5649,12 +5664,12 @@ box4.addEventListener('click', function () {
 ////////////////////////// MongoDB Performance
 
 var secImg5 = document.getElementById('secImg5');
-secImg5.style.display = "none";
+secImg5.style.display = 'none';
 var box5 = document.querySelector('.box5');
-box5.style.display = "flex";
-box5.style.justifyContent = "center";
-box5.style.alignContent = "center";
-box5.style.alignItems = "center";
+box5.style.display = 'flex';
+box5.style.justifyContent = 'center';
+box5.style.alignContent = 'center';
+box5.style.alignItems = 'center';
 
 box5.addEventListener('click', function () {
   var _this5 = this;
@@ -5662,19 +5677,20 @@ box5.addEventListener('click', function () {
   var first = 'opening5';
   var second = 'open5';
 
-  secImg5.style.display = "block";
-  secImg5.style.marginTop = "10%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[4].style.display = "block";
+  secImg5.style.display = 'block';
+  secImg5.style.marginTop = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[4].style.display = 'block';
+  filtered[4].style.marginBottom = '10px';
 
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref5 = [second, first];
@@ -5684,25 +5700,25 @@ box5.addEventListener('click', function () {
     second = _ref5[1];
 
 
-    secImg5.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg5.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
-    filtered[4].style.display = "none";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+    filtered[4].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
-    //hiddenBoxes[4].style.display = "block";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    //hiddenBoxes[4].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -5717,12 +5733,12 @@ box5.addEventListener('click', function () {
 
 
 var secImg6 = document.getElementById('secImg6');
-secImg6.style.display = "none";
+secImg6.style.display = 'none';
 var box6 = document.querySelector('.box6');
-box6.style.display = "flex";
-box6.style.justifyContent = "center";
-box6.style.alignContent = "center";
-box6.style.alignItems = "center";
+box6.style.display = 'flex';
+box6.style.justifyContent = 'center';
+box6.style.alignContent = 'center';
+box6.style.alignItems = 'center';
 
 box6.addEventListener('click', function () {
   var _this6 = this;
@@ -5730,19 +5746,19 @@ box6.addEventListener('click', function () {
   var first = 'opening6';
   var second = 'open6';
 
-  secImg6.style.display = "block";
-  secImg6.style.marginTop = "10%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[5].style.display = "block";
+  secImg6.style.display = 'block';
+  secImg6.style.marginTop = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[5].style.display = 'block';
 
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[6].style.display = "none";
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref6 = [second, first];
@@ -5752,24 +5768,24 @@ box6.addEventListener('click', function () {
     second = _ref6[1];
 
 
-    secImg6.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg6.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
-    filtered[5].style.display = "none";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+    filtered[5].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[6].style.display = "flex";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -5783,12 +5799,12 @@ box6.addEventListener('click', function () {
 ///////////////////////////// DOCKER
 
 var secImg7 = document.getElementById('secImg7');
-secImg7.style.display = "none";
+secImg7.style.display = 'none';
 var box7 = document.querySelector('.box7');
-box7.style.display = "flex";
-box7.style.justifyContent = "center";
-box7.style.alignContent = "center";
-box7.style.alignItems = "center";
+box7.style.display = 'flex';
+box7.style.justifyContent = 'center';
+box7.style.alignContent = 'center';
+box7.style.alignItems = 'center';
 
 box7.addEventListener('click', function () {
   var _this7 = this;
@@ -5796,19 +5812,19 @@ box7.addEventListener('click', function () {
   var first = 'opening7';
   var second = 'open7';
 
-  secImg7.style.display = "block";
-  secImg7.style.marginTop = "10%";
-  this.style.display = "block";
-  container.style.display = "block";
-  container.style.height = "auto";
-  filtered[6].style.display = "block";
+  secImg7.style.display = 'block';
+  secImg7.style.marginTop = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[6].style.display = 'block';
 
-  hiddenBoxes[0].style.display = "none";
-  hiddenBoxes[1].style.display = "none";
-  hiddenBoxes[2].style.display = "none";
-  hiddenBoxes[3].style.display = "none";
-  hiddenBoxes[4].style.display = "none";
-  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref7 = [second, first];
@@ -5818,24 +5834,24 @@ box7.addEventListener('click', function () {
     second = _ref7[1];
 
 
-    secImg7.style.display = "none";
-    this.style.display = "flex";
-    this.style.justifyContent = "center";
-    this.style.alignContent = "center";
-    this.style.alignItems = "center";
+    secImg7.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
 
-    container.style.display = "flex";
-    container.style.justifyContent = "space-around";
-    container.style.paddingTop = "50px";
-    container.style.paddingBottom = "50px";
-    filtered[6].style.display = "none";
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+    filtered[6].style.display = 'none';
 
-    hiddenBoxes[0].style.display = "flex";
-    hiddenBoxes[1].style.display = "flex";
-    hiddenBoxes[2].style.display = "flex";
-    hiddenBoxes[3].style.display = "flex";
-    hiddenBoxes[4].style.display = "flex";
-    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -6399,10 +6415,82 @@ details11.addEventListener('click', function (e) {
 //
 // });
 
+
+var details12 = document.querySelector('.details12');
+
+details12.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  details12.innerHTML = "close";
+
+  details12.addEventListener('click', function () {
+    modal12.style.display = "none";
+    window.location.reload(); //reload to close modal completely
+  });
+
+  var modal12 = document.querySelector('.modal12');
+  var div1 = document.createElement('div');
+  var myArr2 = JSON.parse(jsonData);
+
+  myFunction(myArr2);
+
+  function myFunction(arr2) {
+    var out = "";
+    var i;
+
+    out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
+
+    // var content = document.querySelectorAll('modal-body');
+
+
+    var showJSON2 = function showJSON2() {
+      //  document.getElementById("jsontest2").innerHTML = out;
+      div1.innerHTML = out;
+      modal12.appendChild(div1);
+    };
+    showJSON2();
+  }
+});
 ///////////////////////////////////////
 // End 12th JSON call
 /////////////////////////////////////
 
+
+var details13 = document.querySelector('.details13');
+
+details13.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  details13.innerHTML = "close";
+
+  details13.addEventListener('click', function () {
+    modal13.style.display = "none";
+    window.location.reload(); //reload to close modal completely
+  });
+
+  var modal13 = document.querySelector('.modal13');
+  var div1 = document.createElement('div');
+  var myArr2 = JSON.parse(jsonData);
+
+  myFunction(myArr2);
+
+  function myFunction(arr2) {
+    var out = "";
+    var i;
+
+    out += '<p class="pEl">' + arr2[12].text + '</p>' + '<br>';
+
+    // var content = document.querySelectorAll('modal-body');
+
+
+    var showJSON2 = function showJSON2() {
+      //  document.getElementById("jsontest2").innerHTML = out;
+      div1.innerHTML = out;
+      modal13.appendChild(div1);
+    };
+    showJSON2();
+  }
+});
 
 var localStorage = {};
 

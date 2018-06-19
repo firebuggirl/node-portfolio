@@ -8,7 +8,11 @@
   }
 }
 
-
+.links{
+  color: $sand;
+  font-size:22px;
+  font-family: $stack-garamond;
+}
 .accordion {
   // display: flex;
    margin-top: em(70px);
@@ -47,6 +51,8 @@
 .accordion [type=radio], .accordion [type=checkbox] {
     display:none;
 }
+
+
 .accordion label {
     display:block;
     font-size:16px;

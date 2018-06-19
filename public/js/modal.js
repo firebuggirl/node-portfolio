@@ -645,10 +645,95 @@ if(window.resize){
   //
   // });
 
+
+
+    var details12 = document.querySelector( '.details12' );
+
+    details12.addEventListener('click', function(e){
+      e.preventDefault();
+
+      details12.innerHTML = "close";
+
+      details12.addEventListener('click', function(){
+        modal12.style.display = "none";
+        window.location.reload(); //reload to close modal completely
+      });
+
+    var modal12 = document.querySelector( '.modal12');
+    var div1 = document.createElement( 'div' );
+      var myArr2 = JSON.parse( jsonData );
+
+       myFunction(myArr2);
+
+
+       function myFunction(arr2) {
+         var out = "";
+           var i;
+
+
+                out += '<p class="pEl">' + arr2[11].text + '</p>' + '<br>';
+
+               // var content = document.querySelectorAll('modal-body');
+
+
+        var showJSON2 = function()  {
+         //  document.getElementById("jsontest2").innerHTML = out;
+            div1.innerHTML = out;
+            modal12.appendChild( div1 );
+        };
+        showJSON2();
+       }
+
+
+
+    });
 ///////////////////////////////////////
 // End 12th JSON call
 /////////////////////////////////////
 
+
+
+
+    var details13 = document.querySelector( '.details13' );
+
+    details13.addEventListener('click', function(e){
+      e.preventDefault();
+
+      details13.innerHTML = "close";
+
+      details13.addEventListener('click', function(){
+        modal13.style.display = "none";
+        window.location.reload(); //reload to close modal completely
+      });
+
+    var modal13 = document.querySelector( '.modal13');
+    var div1 = document.createElement( 'div' );
+      var myArr2 = JSON.parse( jsonData );
+
+       myFunction(myArr2);
+
+
+       function myFunction(arr2) {
+         var out = "";
+           var i;
+
+
+                out += '<p class="pEl">' + arr2[12].text + '</p>' + '<br>';
+
+               // var content = document.querySelectorAll('modal-body');
+
+
+        var showJSON2 = function()  {
+         //  document.getElementById("jsontest2").innerHTML = out;
+            div1.innerHTML = out;
+            modal13.appendChild( div1 );
+        };
+        showJSON2();
+       }
+
+
+
+    });
 
 var localStorage = {};
 

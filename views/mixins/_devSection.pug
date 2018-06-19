@@ -16,7 +16,7 @@ block content
           .media__body.body0(data-toggle='modal', data-target='#proj0')
             i
             h2
-              a(href='#') Full stack restaurant application
+              a.links(href='#') Full stack restaurant application
     li
       input#radio-1(type='radio', name='radio-accordion')
       label(for='radio-1') Customize Wordpress
@@ -26,7 +26,7 @@ block content
           .media__body(data-toggle='modal', data-target='#test')
             i
             h2
-              a(href='#') Customize Wordpress
+              a.links(href='#') Customize Wordpress
     li
       input#radio-2(type='radio', name='radio-accordion')
       label(for='radio-2') Online Registration Form
@@ -36,7 +36,7 @@ block content
           .media__body.body2(data-toggle='modal', data-target='#proj2')
             i
             h2
-              a(href='#') Online Registration Form
+              a.links(href='#') Online Registration Form
     li
       input#radio-3(type='radio', name='radio-accordion')
       label(for='radio-3') Interactive Photo Gallery
@@ -46,7 +46,7 @@ block content
           .media__body.body3(data-toggle='modal', data-target='#proj3')
             i
             h2
-              a(href='#') Interactive Photo Gallery
+              a.links(href='#') Interactive Photo Gallery
     li
       input#radio-4(type='radio', name='radio-accordion')
       label(for='radio-4') FireBug Music
@@ -56,7 +56,7 @@ block content
           .media__body.body4(data-toggle='modal', data-target='#proj4')
             i
             h2
-              a(href='#') FireBug Music
+              a.links(href='#') FireBug Music
     li
       input#radio-5(type='radio', name='radio-accordion')
       label(for='radio-5') SVG Site Update
@@ -66,7 +66,7 @@ block content
           .media__body.body5(data-toggle='modal', data-target='#proj5')
             i
             h2
-              a(href='#') SVG Site Update
+              a.links(href='#') SVG Site Update
     li
       input#radio-6(type='radio', name='radio-accordion')
       label(for='radio-6') Interactive Video Player
@@ -76,7 +76,7 @@ block content
           .media__body.body6(data-toggle='modal', data-target='#proj6')
             i
             h2
-              a(href='#') Interactive Video Player
+              a.links(href='#') Interactive Video Player
     li
       input#radio-7(type='radio', name='radio-accordion')
       label(for='radio-7') Accessibility Refactor
@@ -86,7 +86,7 @@ block content
           .media__body.body7(data-toggle='modal', data-target='#proj7')
             i
             h2
-              a(href='#') Accessibility Refactor
+              a.links(href='#') Accessibility Refactor
     li
       input#radio-8(type='radio', name='radio-accordion')
       label(for='radio-8') Web App Dashboard
@@ -96,7 +96,7 @@ block content
           .media__body.body8(data-toggle='modal', data-target='#proj8')
             i
             h2
-              a(href='#') Web App Dashboard
+              a.links(href='#') Web App Dashboard
     //
       <li>
       <input type="radio" id="radio-9" name="radio-accordion">
@@ -117,7 +117,7 @@ block content
           .media__body.body10(data-toggle='modal', data-target='#proj10')
             i
             h2
-              a(href='#') Project Optimize
+              a.links(href='#') Project Optimize
     li
       input#radio-11(type='radio', name='radio-accordion')
       label(for='radio-11') CSS to Sass
@@ -127,7 +127,27 @@ block content
           .media__body(data-toggle='modal', data-target='#proj11')
             i
             h2
-              a(href='#') CSS to Sass
+              a.links(href='#') CSS to Sass
+    li
+      input#radio-12(type='radio', name='radio-accordion')
+      label(for='radio-12') MEAN Stack App w/Auth0
+      .content.clearfix
+        .container.text-xs-center.media.mobileView
+          img.img-thumbnail.img-responsive.media__image(src='images/photos/mean-auth.png', alt='MEAN Stack App w/Auth0')
+          .media__body(data-toggle='modal', data-target='#proj12')
+            i
+            h2
+            a.links(href='#') MEAN Stack App w/Auth0
+    li
+      input#radio-13(type='radio', name='radio-accordion')
+      label(for='radio-13') MEAN Stack CRUD App Contact List
+      .content.clearfix
+        .container.text-xs-center.media.mobileView
+          img.img-thumbnail.img-responsive.media__image(src='images/photos/mean-contact.png', alt='MEAN Stack App w/Auth0')
+          .media__body(data-toggle='modal', data-target='#proj13')
+            i
+            h2
+            a.links(href='#') MEAN Stack CRUD App Contact List
 hr
 #proj0.modal.fade
   .modal-dialog
@@ -234,5 +254,23 @@ hr
           a.btn.btn-warning.btn-md(href='https://github.com/firebuggirl/stickyheadercsstosass', target='_blank') View code
           button.btn.btn-success.btn-md.details11(type='button') View Details
         img#modal11Img(src='images/photos/project5.png', alt='project 5')
+#proj12.modal.fade
+  .modal-dialog
+    .modal-content
+      .modal-body.modal12
+        .flexBtns.btn12
+          a.btn.btn-danger.btn-md(href='https://auth-example-with-anim.herokuapp.com/', target='_blank') View Site
+          a.btn.btn-warning.btn-md(href='https://github.com/firebuggirl/auth-with-animations', target='_blank') View code
+          button.btn.btn-success.btn-md.details12(type='button') View Details
+        img#modal12Img(src='images/photos/mean-auth.png', alt='MEAN Auth w/Auth0')
+#proj13.modal.fade
+  .modal-dialog
+    .modal-content
+      .modal-body.modal13
+        .flexBtns.btn13
+          a.btn.btn-danger.btn-md(href='https://ang6-crud.herokuapp.com/', target='_blank') View Site
+          a.btn.btn-warning.btn-md(href='https://github.com/firebuggirl/mean-contact-list', target='_blank') View code
+          button.btn.btn-success.btn-md.details13(type='button') View Details
+        img#modal13Img(src='images/photos/mean-contact.png', alt='MEAN CRUD')
 hr
 hr
