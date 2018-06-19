@@ -723,5 +723,6 @@
       $.scPlayer.defaults.onDomReady();
     }
   });
+  
 
 })(jQuery);

@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 23);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -124,21 +124,22 @@ module.exports = __webpack_amd_options__;
 /* 20 */,
 /* 21 */,
 /* 22 */,
-/* 23 */
+/* 23 */,
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(24);
 __webpack_require__(25);
 __webpack_require__(26);
 __webpack_require__(27);
 __webpack_require__(28);
 __webpack_require__(29);
 __webpack_require__(30);
-module.exports = __webpack_require__(31);
+__webpack_require__(31);
+module.exports = __webpack_require__(32);
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2547,7 +2548,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4774,7 +4775,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5277,7 +5278,7 @@ if (!jQuery) throw new Error("Bootstrap requires jQuery");+function (a) {
 }(window.jQuery);
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5333,7 +5334,7 @@ var posts = [{
     jsonData = JSON.stringify(posts);
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5407,6 +5408,8 @@ box.addEventListener('click', function () {
   hiddenBoxes[2].style.display = "none";
   hiddenBoxes[3].style.display = "none";
   hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
   // socials.style.display = "block";
   // const filtered = socials
   //   .map(social => social.style.display ="block");
@@ -5436,6 +5439,8 @@ box.addEventListener('click', function () {
     hiddenBoxes[2].style.display = "flex";
     hiddenBoxes[3].style.display = "flex";
     hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
     //  hiddenBoxes[0].style.display = "block";
   }
 
@@ -5444,6 +5449,9 @@ box.addEventListener('click', function () {
     _this.classList.toggle(second);
   }, 250);
 });
+
+//////////////////////////
+////////////////////////// MongoDB Basics
 
 var secImg2 = document.getElementById('secImg2');
 secImg2.style.display = "none";
@@ -5468,6 +5476,8 @@ box2.addEventListener('click', function () {
   hiddenBoxes[2].style.display = "none";
   hiddenBoxes[3].style.display = "none";
   hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
 
   if (this.classList.contains(first)) {
     var _ref2 = [second, first];
@@ -5494,6 +5504,8 @@ box2.addEventListener('click', function () {
     hiddenBoxes[2].style.display = "flex";
     hiddenBoxes[3].style.display = "flex";
     hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
     //hiddenBoxes[1].style.display = "block";
   }
 
@@ -5502,6 +5514,9 @@ box2.addEventListener('click', function () {
     _this2.classList.toggle(second);
   }, 250);
 });
+
+/////////////////////////////
+///////////////////////////// MongoDB for Node.js
 
 var secImg3 = document.getElementById('secImg3');
 secImg3.style.display = "none";
@@ -5526,6 +5541,8 @@ box3.addEventListener('click', function () {
   hiddenBoxes[1].style.display = "none";
   hiddenBoxes[3].style.display = "none";
   hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
 
   if (this.classList.contains(first)) {
     var _ref3 = [second, first];
@@ -5551,6 +5568,8 @@ box3.addEventListener('click', function () {
     hiddenBoxes[1].style.display = "flex";
     hiddenBoxes[3].style.display = "flex";
     hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
     //hiddenBoxes[2].style.display = "block";
   }
 
@@ -5559,6 +5578,9 @@ box3.addEventListener('click', function () {
     _this3.classList.toggle(second);
   }, 250);
 });
+
+///////////////////////
+/////////////////////// Treehouse Front End Tech Degree
 
 var secImg4 = document.getElementById('secImg4');
 secImg4.style.display = "none";
@@ -5585,6 +5607,8 @@ box4.addEventListener('click', function () {
   hiddenBoxes[1].style.display = "none";
   hiddenBoxes[2].style.display = "none";
   hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
 
   if (this.classList.contains(first)) {
     var _ref4 = [second, first];
@@ -5610,6 +5634,8 @@ box4.addEventListener('click', function () {
     hiddenBoxes[1].style.display = "flex";
     hiddenBoxes[2].style.display = "flex";
     hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
     //  hiddenBoxes[3].style.display = "block";
   }
 
@@ -5618,6 +5644,9 @@ box4.addEventListener('click', function () {
     _this4.classList.toggle(second);
   }, 250);
 });
+
+//////////////////////////
+////////////////////////// MongoDB Performance
 
 var secImg5 = document.getElementById('secImg5');
 secImg5.style.display = "none";
@@ -5644,6 +5673,8 @@ box5.addEventListener('click', function () {
   hiddenBoxes[1].style.display = "none";
   hiddenBoxes[2].style.display = "none";
   hiddenBoxes[3].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
 
   if (this.classList.contains(first)) {
     var _ref5 = [second, first];
@@ -5669,6 +5700,8 @@ box5.addEventListener('click', function () {
     hiddenBoxes[1].style.display = "flex";
     hiddenBoxes[2].style.display = "flex";
     hiddenBoxes[3].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
     //hiddenBoxes[4].style.display = "block";
   }
 
@@ -5678,8 +5711,141 @@ box5.addEventListener('click', function () {
   }, 250);
 });
 
+/////////////////////////////
+/////////////////////////////
+///////////////////////////// KUBERNETES
+
+
+var secImg6 = document.getElementById('secImg6');
+secImg6.style.display = "none";
+var box6 = document.querySelector('.box6');
+box6.style.display = "flex";
+box6.style.justifyContent = "center";
+box6.style.alignContent = "center";
+box6.style.alignItems = "center";
+
+box6.addEventListener('click', function () {
+  var _this6 = this;
+
+  var first = 'opening6';
+  var second = 'open6';
+
+  secImg6.style.display = "block";
+  secImg6.style.marginTop = "10%";
+  this.style.display = "block";
+  container.style.display = "block";
+  container.style.height = "auto";
+  filtered[5].style.display = "block";
+
+  hiddenBoxes[0].style.display = "none";
+  hiddenBoxes[1].style.display = "none";
+  hiddenBoxes[2].style.display = "none";
+  hiddenBoxes[3].style.display = "none";
+  hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[6].style.display = "none";
+
+  if (this.classList.contains(first)) {
+    var _ref6 = [second, first];
+    // switch them
+
+    first = _ref6[0];
+    second = _ref6[1];
+
+
+    secImg6.style.display = "none";
+    this.style.display = "flex";
+    this.style.justifyContent = "center";
+    this.style.alignContent = "center";
+    this.style.alignItems = "center";
+
+    container.style.display = "flex";
+    container.style.justifyContent = "space-around";
+    container.style.paddingTop = "50px";
+    container.style.paddingBottom = "50px";
+    filtered[5].style.display = "none";
+
+    hiddenBoxes[0].style.display = "flex";
+    hiddenBoxes[1].style.display = "flex";
+    hiddenBoxes[2].style.display = "flex";
+    hiddenBoxes[3].style.display = "flex";
+    hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[6].style.display = "flex";
+  }
+
+  this.classList.toggle(first);
+  setTimeout(function () {
+    _this6.classList.toggle(second);
+  }, 250);
+});
+
+/////////////////////////////
+/////////////////////////////
+///////////////////////////// DOCKER
+
+var secImg7 = document.getElementById('secImg7');
+secImg7.style.display = "none";
+var box7 = document.querySelector('.box7');
+box7.style.display = "flex";
+box7.style.justifyContent = "center";
+box7.style.alignContent = "center";
+box7.style.alignItems = "center";
+
+box7.addEventListener('click', function () {
+  var _this7 = this;
+
+  var first = 'opening7';
+  var second = 'open7';
+
+  secImg7.style.display = "block";
+  secImg7.style.marginTop = "10%";
+  this.style.display = "block";
+  container.style.display = "block";
+  container.style.height = "auto";
+  filtered[6].style.display = "block";
+
+  hiddenBoxes[0].style.display = "none";
+  hiddenBoxes[1].style.display = "none";
+  hiddenBoxes[2].style.display = "none";
+  hiddenBoxes[3].style.display = "none";
+  hiddenBoxes[4].style.display = "none";
+  hiddenBoxes[5].style.display = "none";
+
+  if (this.classList.contains(first)) {
+    var _ref7 = [second, first];
+    // switch them
+
+    first = _ref7[0];
+    second = _ref7[1];
+
+
+    secImg7.style.display = "none";
+    this.style.display = "flex";
+    this.style.justifyContent = "center";
+    this.style.alignContent = "center";
+    this.style.alignItems = "center";
+
+    container.style.display = "flex";
+    container.style.justifyContent = "space-around";
+    container.style.paddingTop = "50px";
+    container.style.paddingBottom = "50px";
+    filtered[6].style.display = "none";
+
+    hiddenBoxes[0].style.display = "flex";
+    hiddenBoxes[1].style.display = "flex";
+    hiddenBoxes[2].style.display = "flex";
+    hiddenBoxes[3].style.display = "flex";
+    hiddenBoxes[4].style.display = "flex";
+    hiddenBoxes[5].style.display = "flex";
+  }
+
+  this.classList.toggle(first);
+  setTimeout(function () {
+    _this7.classList.toggle(second);
+  }, 250);
+});
+
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6250,7 +6416,7 @@ localStorage.init = function () {
 };
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6941,7 +7107,7 @@ localStorage.init = function () {
 })(jQuery);
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

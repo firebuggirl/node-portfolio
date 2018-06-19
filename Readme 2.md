@@ -8,9 +8,7 @@
 
   ` sass --watch public/sass/style.scss:public/dist/style.css `
 
-* Compile all files via Webpack during development:
 
-    ` npm run dev `
 
    https://github.com/firebuggirl/node-portfolio.git
 
@@ -42,6 +40,8 @@
    * Add Node.js buildpack via Heroku site
 
    ` git push heroku master `
+
+   
 
    * https://juliettet-node-portfolio.herokuapp.com/
 

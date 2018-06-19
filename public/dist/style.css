@@ -6672,6 +6672,10 @@ li {
   display: flex;
   justify-content: center; }
 
+.box6 h3, .box7 h3 {
+  margin-bottom: 30%;
+  text-align: center; }
+
 h1.certsh1 {
   margin-bottom: 1.5625em; }
 
@@ -6746,38 +6750,63 @@ h1.certsh1 {
   position: relative;
   border: 4px solid #bd1b0f; }
 
-.box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5 {
+.box6 {
+  background: #b8612a center fixed no-repeat;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  transition: width 0.2s, height 0.6s;
+  position: relative;
+  border: 4px solid #bd1b0f; }
+
+.box7 {
+  background: #b8612a center fixed no-repeat;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  transition: width 0.2s, height 0.6s;
+  position: relative;
+  border: 4px solid #bd1b0f; }
+
+.box6 .socialCerts, .box7 .socialCerts {
+  margin-left: 2%; }
+
+.box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5, .box6.opening6, .box7.opening7 {
   width: 500px;
   height: 661px;
   margin-top: 100px;
   padding-bottom: 100px; }
 
 @media screen and (max-width: 360px) {
-  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5 {
+  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5, .box6.opening6, .box7.opening7 {
     height: 350px; } }
 @media screen and (max-width: 480px) {
-  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5 {
+  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5, .box6.opening6, .box7.opening7 {
     height: 380px;
     width: 300px;
     margin-top: 10px;
     padding-bottom: 10px; }
 
   .wrap {
-    font-size: 15px; }
+    font-size: 15px;
+    margin: 5px; }
+
+  .box6 h3, .box7 h3 {
+    font-size: 1.2em; }
 
   h1.certsh1 {
     font-size: 18px;
     margin-bottom: 1.875em; } }
 @media screen and (min-width: 768px) {
-  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5 {
+  .box.opening, .box2.opening2, .box3.opening3, .box4.opening4, .box5.opening5, .box6.opening6, .box7.opening7 {
     height: 530px;
     width: 400px;
     margin-top: 10px;
     padding-bottom: 10px; } }
-h3.name1, h3.name2, h3.name3, h3.name4, h3.name5 {
+h3.name1, h3.name2, h3.name3, h3.name4, h3.name5, h3.name6, h3.name7 {
   margin-top: 0px; }
 
-.box.name1, .box2.name2, .box3.name3, .box4.name4, .box5.name5 {
+.box.name1, .box2.name2, .box3.name3, .box4.name4, .box5.name5, .box6.name6, .box7.name7 {
   position: absolute;
   width: 20%;
   font-size: 70px;
@@ -6785,14 +6814,14 @@ h3.name1, h3.name2, h3.name3, h3.name4, h3.name5 {
   transition: all 0.5s;
   top: 0; }
 
-.box p, .box2 p, .box3 p, .box4 p, .box5 p {
+.box p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p, .box7 p {
   position: absolute;
   width: 100%;
   transform: translateX(200%);
   transition: all 0.5s;
   bottom: 0; }
 
-.box.open > *, .box2.open2 > *, .box3.open3 > *, .box4.open4 > *, .box5.open5 > * {
+.box.open > *, .box2.open2 > *, .box3.open3 > *, .box4.open4 > *, .box5.open5 > *, .box6.open6 > *, .box7.open7 > * {
   transform: translateX(0%); }
 
 /*@import "media";*/

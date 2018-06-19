@@ -55,6 +55,7 @@ const config = {
     // we only have 1 entry, but I've set it up for multiple in the future
     cssLoad: './public/js/app.js', //added 12/8
     App: [ './public/js/jquery-1.11.2.min.js','./public/js/jquery-2.2.0.min.js','./public/js/bootstrap.min.js','./public/js/data.js', './public/js/certs.js','./public/js/modal.js', './public/js/soundcloud.js', './public/js/animate.js']
+    //App: [ './public/js/jquery-1.11.2.min.js','./public/js/jquery-2.2.0.min.js','./public/js/bootstrap.min.js','./public/js/modal.js', './public/js/soundcloud.js', './public/js/animate.js']
 
     //App: './public/js/app.js'
   },
