@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config({ path: 'variables.env' });
 const express = require('express');
 const helmet = require('helmet');//initiate security headers
 const path = require('path');
@@ -56,7 +56,7 @@ app.set('view engine', 'pug'); // we use the engine pug, mustache or EJS work gr
 // serves up static files from the public folder. Anything in public/ will just be served up as the file it is
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
 // Takes the raw requests and turns them into usable properties on req.body
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
