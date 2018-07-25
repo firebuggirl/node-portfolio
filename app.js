@@ -56,7 +56,17 @@ app.set('view engine', 'pug'); // we use the engine pug, mustache or EJS work gr
 // serves up static files from the public folder. Anything in public/ will just be served up as the file it is
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+//app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+//// manually modify middleware to check for Googlebot by their user agent directly
+// https://prerender.io/documentation/google-support
+// have been some reported issues with Googlebot rendering JavaScript on the first
+// request to a URL that still uses the ?_escaped_fragment_= protocol
+const prerender = require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN);
+prerender.crawlerUserAgents.push('googlebot');
+prerender.crawlerUserAgents.push('bingbot');
+prerender.crawlerUserAgents.push('yandex');
+
+
 // Takes the raw requests and turns them into usable properties on req.body
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
