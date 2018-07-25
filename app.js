@@ -65,6 +65,7 @@ const prerender = require('prerender-node').set('prerenderToken', process.env.PR
 prerender.crawlerUserAgents.push('googlebot');
 prerender.crawlerUserAgents.push('bingbot');
 prerender.crawlerUserAgents.push('yandex');
+app.use(prerender);
 
 
 // Takes the raw requests and turns them into usable properties on req.body
