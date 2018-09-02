@@ -1,6 +1,37 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
-ignore: {}
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:validator:20180218':
+    - express-validator > validator:
+        reason: no patches currently available
+        expires: '2018-10-02T01:51:54.371Z'
+  'npm:chownr:20180731':
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: no patch currently available
+        expires: '2018-10-02T01:51:54.371Z'
+    - extract-text-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: no patch currently available
+        expires: '2018-10-02T01:51:54.371Z'
+    - file-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: no patch currently available
+        expires: '2018-10-02T01:51:54.371Z'
+    - url-loader > file-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: no patch currently ava
+        expires: '2018-10-02T01:51:54.371Z'
+  'npm:mem:20180117':
+    - webpack > yargs > os-locale > mem:
+        reason: no patch currently ava
+        expires: '2018-10-02T01:51:54.371Z'
+    - extract-text-webpack-plugin > webpack > yargs > os-locale > mem:
+        reason: no patch currently ava
+        expires: '2018-10-02T01:51:54.371Z'
+    - file-loader > webpack > yargs > os-locale > mem:
+        reason: no patch avail
+        expires: '2018-10-02T01:51:54.371Z'
+    - url-loader > file-loader > webpack > yargs > os-locale > mem:
+        reason: no patch avail
+        expires: '2018-10-02T01:51:54.371Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:debug:20170905':
