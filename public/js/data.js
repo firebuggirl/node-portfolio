@@ -24,7 +24,7 @@
        },
        {
          "id":4,
-         "text":"<h1>FireBug Music</h1><h3>FireBug band website:</h3><br><p>Design a responsive and interactive website for my band FireBug </p><h4>Tools and Methods used:</h4></h4><li>Soundcloud API</li><li>Instagram API</li><li>Sass</li><li>Gulp/Node.js</li><li>Animsition</li><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
+         "text":"<h1>SoCal Pizza Node.js API + Frontend</h1><h3>Mock Pizza Delivery Site:</h3><br><p>Create a backend API & frontend GUI for a mock Pizza Delivery service without using any external modules or libraries. </p><h4>Tools and Methods used:</h4></h4><li>Node.js</li><li>Stripe API</li><li>Mailgun API</li>"
        },
        {
          "id":5,
