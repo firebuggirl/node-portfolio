@@ -53,7 +53,7 @@
        },
        {
          "id":10,
-         "text":"<h1>CSS to Sass</h1><h3>Treehouse Front End Tech Degree Project 5 task:</h3><p>Use programming principles to refactor a standard CSS stylesheet to Sass by identifying repeating patterns, using variables, and adding mixins.</p><h4>Tools and Methods used:</h4><br><li>Sass</li><li>W3C Markup Validation Service</li><li>W3C HTML Markup Validation Service</li><li>JS Hint</li>"
+         "text":"<h1>MongoDB Stitch Guitar Shop</h1><h3>MongoDB Stitch Guitar Shop task:</h3><p>Build a Serverless Application with user authentication via MongoDB Stitch and MongoDB Atlas</p><h4>Tools and Methods used:</h4><br><li>MongoDB Stitch</li><li>MongoDB Atlas</li><li>React</li><li>Node.js</li>"
 
        },
        {
