@@ -1,3 +1,5 @@
+//NOTE: Don't use arrow functions here...using 'this' all over the place :-)
+
 const socials = Array.from(document.querySelectorAll('.socialCerts'));
       const filtered = socials
         .filter(social => social.style.display ='none');
@@ -25,6 +27,9 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
             });
         console.log(hiddenBoxes);
 
+////////////////////
+// /////////////////
+// First image => '0' index
       const secImg = document.getElementById('secImg');
       secImg.style.display = 'none';
       const box = document.querySelector('.box');
@@ -42,9 +47,6 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         filtered[0].style.display = 'block';
         filtered[0].style.marginBottom = '10px';
 
-
-
-
 // const notZeroIndex = hiddenBoxes
 //   .filter(hiddenBox => hiddenBox !== hiddenBox[0]);
 //   notZeroIndex.style.display = 'none';
@@ -56,6 +58,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[4].style.display = 'none';
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
+        hiddenBoxes[7].style.display = 'none';
         // socials.style.display = 'block';
         // const filtered = socials
         //   .map(social => social.style.display ='block');
@@ -84,14 +87,15 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[4].style.display = 'flex';
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
+          hiddenBoxes[7].style.display = 'flex';
         //  hiddenBoxes[0].style.display = 'block';
         }
 
         this.classList.toggle(first);
-        setTimeout(() => {
-          this.classList.toggle(second);
-        }, 250);
-      });
+          setTimeout(() => {
+            this.classList.toggle(second);
+          }, 250);
+        });
 
 
 
@@ -121,6 +125,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[4].style.display = 'none';
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
+        hiddenBoxes[7].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -145,14 +150,15 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[4].style.display = 'flex';
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
+          hiddenBoxes[7].style.display = 'flex';
           //hiddenBoxes[1].style.display = 'block';
         }
 
         this.classList.toggle(first);
-        setTimeout(() => {
-          this.classList.toggle(second);
-        }, 250);
-      });
+          setTimeout(() => {
+            this.classList.toggle(second);
+          }, 250);
+        });
 
 /////////////////////////////
 ///////////////////////////// MongoDB for Node.js
@@ -181,6 +187,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[4].style.display = 'none';
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
+        hiddenBoxes[7].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -204,14 +211,15 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[4].style.display = 'flex';
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
-          //hiddenBoxes[2].style.display = 'block';
+          hiddenBoxes[7].style.display = 'flex';
+
         }
 
         this.classList.toggle(first);
-        setTimeout(() => {
-          this.classList.toggle(second);
-        }, 250);
-      });
+          setTimeout(() => {
+            this.classList.toggle(second);
+          }, 250);
+        });
 
 ///////////////////////
 /////////////////////// Treehouse Front End Tech Degree
@@ -242,6 +250,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[4].style.display = 'none';
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
+        hiddenBoxes[7].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -265,22 +274,23 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[4].style.display = 'flex';
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
+          hiddenBoxes[7].style.display = 'flex';
         //  hiddenBoxes[3].style.display = 'block';
         }
 
         this.classList.toggle(first);
-        setTimeout(() => {
-          this.classList.toggle(second);
-        }, 250);
-      });
+          setTimeout(() => {
+            this.classList.toggle(second);
+          }, 250);
+        });
 
 
 //////////////////////////
 ////////////////////////// MongoDB Performance
 
-      const secImg5 = document.getElementById('secImg5');
-      secImg5.style.display = 'none';
-      const box5 = document.querySelector('.box5');
+       const secImg5 = document.getElementById('secImg5');
+       secImg5.style.display = 'none';
+       const box5 = document.querySelector('.box5');
        box5.style.display = 'flex';
        box5.style.justifyContent = 'center';
        box5.style.alignContent = 'center';
@@ -305,6 +315,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[3].style.display = 'none';
       hiddenBoxes[5].style.display = 'none';
       hiddenBoxes[6].style.display = 'none';
+      hiddenBoxes[7].style.display = 'none';
 
       if(this.classList.contains(first)) {
         // switch them
@@ -328,14 +339,15 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[3].style.display = 'flex';
         hiddenBoxes[5].style.display = 'flex';
         hiddenBoxes[6].style.display = 'flex';
+        hiddenBoxes[7].style.display = 'flex';
         //hiddenBoxes[4].style.display = 'block';
       }
 
       this.classList.toggle(first);
-      setTimeout(() => {
-        this.classList.toggle(second);
-      }, 250);
-    });
+        setTimeout(() => {
+          this.classList.toggle(second);
+        }, 250);
+      });
 
 
 
@@ -344,9 +356,9 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     ///////////////////////////// KUBERNETES
 
 
-    const secImg6 = document.getElementById('secImg6');
-    secImg6.style.display = 'none';
-    const box6 = document.querySelector('.box6');
+     const secImg6 = document.getElementById('secImg6');
+     secImg6.style.display = 'none';
+     const box6 = document.querySelector('.box6');
      box6.style.display = 'flex';
      box6.style.justifyContent = 'center';
      box6.style.alignContent = 'center';
@@ -370,6 +382,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     hiddenBoxes[3].style.display = 'none';
     hiddenBoxes[4].style.display = 'none';
     hiddenBoxes[6].style.display = 'none';
+    hiddenBoxes[7].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -393,22 +406,23 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[3].style.display = 'flex';
       hiddenBoxes[4].style.display = 'flex';
       hiddenBoxes[6].style.display = 'flex';
+      hiddenBoxes[7].style.display = 'flex';
     }
 
     this.classList.toggle(first);
-    setTimeout(() => {
-      this.classList.toggle(second);
-    }, 250);
-  });
+      setTimeout(() => {
+        this.classList.toggle(second);
+      }, 250);
+    });
 
 
   /////////////////////////////
   /////////////////////////////
   ///////////////////////////// DOCKER
 
-  const secImg7 = document.getElementById('secImg7');
-  secImg7.style.display = 'none';
-  const box7 = document.querySelector('.box7');
+   const secImg7 = document.getElementById('secImg7');
+   secImg7.style.display = 'none';
+   const box7 = document.querySelector('.box7');
    box7.style.display = 'flex';
    box7.style.justifyContent = 'center';
    box7.style.alignContent = 'center';
@@ -432,6 +446,7 @@ box7.addEventListener('click', function() {
   hiddenBoxes[3].style.display = 'none';
   hiddenBoxes[4].style.display = 'none';
   hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[7].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -455,10 +470,79 @@ box7.addEventListener('click', function() {
     hiddenBoxes[3].style.display = 'flex';
     hiddenBoxes[4].style.display = 'flex';
     hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[7].style.display = 'flex';
   }
 
   this.classList.toggle(first);
-  setTimeout(() => {
-    this.classList.toggle(second);
-  }, 250);
-});
+    setTimeout(() => {
+      this.classList.toggle(second);
+    }, 250);
+  });
+
+
+  /////////////////////////////
+  /////////////////////////////
+  ///////////////////////////// MongoDB Basic Cluster Administration
+
+
+
+const secImg8 = document.getElementById('secImg8');
+secImg8.style.display = 'none';
+const box8 = document.querySelector('.box8');
+box8.style.display = 'flex';
+box8.style.justifyContent = 'center';
+box8.style.alignContent = 'center';
+box8.style.alignItems = 'center';
+box8.addEventListener('click', function() {
+  let first = 'opening8';
+  let second = 'open8';
+  secImg8.style.display = 'block';
+  secImg8.style.marginTop = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+  filtered[7].style.display = 'block';
+  // socials.style.display = 'block';
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
+
+
+  if(this.classList.contains(first)) {
+    // switch them
+    [first, second] = [second, first];
+
+    secImg8.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
+
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+
+    filtered[7].style.display = 'none';
+
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+
+
+    //hiddenBoxes[1].style.display = 'block';
+  }
+
+  this.classList.toggle(first);
+    setTimeout(() => {
+      this.classList.toggle(second);
+    }, 250);
+  });

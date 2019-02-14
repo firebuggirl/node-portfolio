@@ -1,12 +1,14 @@
-* This is the Node.js version of my portfolio
+## This is the Node.js version of my portfolio
 
 
-  * Build Webpack modules:
+* Build Webpack modules:
+
    ` npm run assets `
 
   Watch Sass in separate terminal:
 
-  ` sass --watch public/sass/style.scss:public/dist/style.css `
+  ` sass --watch public/sass/style.scss:public/dist/style.css
+  `
 
 * Compile all files via Webpack during development:
 
@@ -14,7 +16,7 @@
 
    https://github.com/firebuggirl/node-portfolio.git
 
-   Deploy to Heroku:
+*   Deploy to Heroku:
 
    ` git clone git@github.com:firebuggirl/node-portfolio `
 
@@ -30,9 +32,11 @@
 
 
    * to re-name app
+
    ` heroku apps:rename juliettet-node-portfolio --app sleepy-bastion-39170 `
 
    * deploy from existing Github repo:
+
    ` heroku git:remote -a juliettet-node-portfolio `
 
    * First set up local environment variable(s) via Heroku site & set ENV to  production
