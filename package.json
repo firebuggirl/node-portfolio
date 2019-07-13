@@ -41,8 +41,7 @@
     "webpack": "^3.10.0"
   },
   "engines": {
-    "node": ">= 10.14.2",
-    "npm": "6.4.1"
+    "node": ">= 11.6.0"
   },
   "now": {
     "dotenv": "variables.env.now"

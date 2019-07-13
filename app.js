@@ -14,15 +14,15 @@ const errorHandlers = require('./handlers/errorHandlers');
 const fs = require("fs");
 
 
-var pugBeautify = require('pug-beautify');
-var code = fs.readFileSync('views/layout.pug','utf8');
-var option = {
+const pugBeautify = require('pug-beautify');
+const code = fs.readFileSync('views/layout.pug','utf8');
+const option = {
     fill_tab: true,
     omit_div: false,
     tab_size: 4
 };
 try {
-    var output = pugBeautify(code,option);
+    const output = pugBeautify(code,option);
 }catch(error){
     // Error occurred
 }
