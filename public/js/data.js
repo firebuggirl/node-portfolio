@@ -53,7 +53,7 @@
        },
        {
          "id":10,
-         "text":"<h1>FireBug Live MEAN RSVP</h1><h3>FireBug Live MEAN RSVP task:</h3><p>Build a MEAN Stack Application with an Nginx reverse proxy. Enable Auth0 user authentication. Restrict write permissions by user type. Deploy to a Digital Ocean droplet</p><h4>Tools and Methods used:</h4><br><li>MongoDB Atlas</li><li>Angular 8</li><li>Angular PWA</li><li>Angular CLI</li><li>Nginx</li><li>Digital Ocean Ubuntu 18.04 VPS Droplet</li><li>Let's Encrypt</li><li>Node.js</li><li>ExpressJS</li><li>PM2</li>"
+         "text":"<h1>FireBug Live MEAN RSVP</h1><h3>FireBug Live MEAN RSVP task:</h3><p>Build a MEAN Stack Application with an Nginx reverse proxy. Enable Auth0 user authentication. Restrict write permissions by user type. Deploy to a Digital Ocean droplet.</p><h4>Tools and Methods used:</h4><br><li>MongoDB Atlas</li><li>Angular 8</li><li>Angular PWA</li><li>Angular CLI</li><li>Nginx</li><li>Digital Ocean Ubuntu 18.04 VPS Droplet</li><li>Let's Encrypt</li><li>Node.js</li><li>ExpressJS</li><li>PM2</li>"
 
        },
        {
