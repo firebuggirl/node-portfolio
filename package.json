@@ -41,7 +41,7 @@
     "webpack": "^3.10.0"
   },
   "engines": {
-    "node": ">= 11.6.0"
+    "node": ">= 12.8.1"
   },
   "now": {
     "dotenv": "variables.env.now"
@@ -50,16 +50,17 @@
     "style": "dist/style.css"
   },
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
     "animate.css": "^3.5.2",
     "autoprefixer": "^7.1.6",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "concurrently": "^3.5.0",
-    "css-loader": "^0.28.7",
+    "css-loader": "^3.2.0",
     "extract-text-webpack-plugin": "^3.0.2",
-    "image-webpack-loader": "^3.4.2",
+    "image-webpack-loader": "^5.0.0",
     "node-sass": "^4.12.0",
     "nodemon": "^1.12.1",
     "postcss-loader": "^2.0.8",
