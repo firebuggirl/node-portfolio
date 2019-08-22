@@ -5830,6 +5830,8 @@ $colHover       : #ffe6d1; /*/
   text-align: center;
   padding-bottom: 50px;
   background-size: cover;
+  height: auto;
+  width: 100%;
   background: linear-gradient(rgba(255, 0, 0, 0.23), rgba(255, 0, 0, 0.23)), url(../images/photos/desertsky.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -5838,6 +5840,14 @@ $colHover       : #ffe6d1; /*/
   background-position: center;
   /* Internet Explorer 7/8 */
   transition: all .4s ease-in-out; }
+  @media (max-width: 800px) {
+    .jumbotron {
+      background-size: contain;
+      -moz-background-size: contain;
+      /* Firefox 3.6 */
+      background-position: right;
+      /* Internet Explorer 7/8 */
+      background-repeat: repeat-y; } }
   .jumbotron:hover {
     transform: scale(1); }
 

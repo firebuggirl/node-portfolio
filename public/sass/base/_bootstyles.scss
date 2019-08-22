@@ -279,6 +279,8 @@ $colHover       : #ffe6d1; /*/
   text-align: center;
   padding-bottom: 50px;
   background-size: cover;
+	height:auto;
+  width:100%;
   // position: fixed;
   background:
     /* top, transparent red, faked with gradient */
@@ -296,9 +298,11 @@ $colHover       : #ffe6d1; /*/
 	// margin-bottom: 500px;
 	  transition: all .4s ease-in-out;
 
- @include bp(tablet){
-	//  height: 60vh;
-
+ @include bp(responsive_bck_img){
+	 background-size: contain;
+ 	-moz-background-size: contain;  /* Firefox 3.6 */
+ 	background-position: right;  /* Internet Explorer 7/8 */
+	background-repeat: repeat-y;
  }
  @include bp(fullscreen){
 	  // height: 140vh;

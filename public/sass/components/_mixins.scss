@@ -40,6 +40,9 @@
   @else if $point == extraLarge_screen {
     @media (min-width: 1500px) { @content; }
   }
+  @else if $point == responsive_bck_img{
+    @media (max-width: 800px) { @content;}
+  }
   @else if $point == mobile_large{
     @media (min-width: 414px) { @content;}
   }
