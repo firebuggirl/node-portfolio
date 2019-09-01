@@ -6727,7 +6727,8 @@ h1.certsh1 {
 .box5,
 .box6,
 .box7,
-.box8 {
+.box8,
+.box9 {
   background: #b8612a center fixed no-repeat;
   width: 150px;
   height: 150px;
@@ -6799,6 +6800,15 @@ h1.certsh1 {
   position: relative;
   border: 4px solid #bd1b0f; }
 
+.box9 {
+  background: #b8612a center fixed no-repeat;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  transition: width 0.2s, height 0.6s;
+  position: relative;
+  border: 4px solid #bd1b0f; }
+
 .box6 .socialCerts, .box7 .socialCerts {
   margin-left: 2%; }
 
@@ -6818,6 +6828,12 @@ h1.certsh1 {
   margin-top: 100px;
   padding-bottom: 100px; }
 
+.box9.opening9 {
+  width: 500px;
+  height: 561px;
+  margin-top: 100px;
+  padding-bottom: 100px; }
+
 @media screen and (max-width: 360px) {
   .box.opening,
   .box2.opening2,
@@ -6826,7 +6842,8 @@ h1.certsh1 {
   .box5.opening5,
   .box6.opening6,
   .box7.opening7,
-  .box8.opening8 {
+  .box8.opening8,
+  .box9.opening9 {
     height: 350px; } }
 @media screen and (max-width: 480px) {
   .box.opening,
@@ -6836,7 +6853,8 @@ h1.certsh1 {
   .box5.opening5,
   .box6.opening6,
   .box7.opening7,
-  .box8.opening8 {
+  .box8.opening8,
+  .box9.opening9 {
     height: 380px;
     width: 300px;
     margin-top: 10px;
@@ -6869,7 +6887,16 @@ h1.certsh1 {
     height: 560px;
     width: 400px;
     margin-top: 10px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+
+  .box9.opening9 {
+    height: 460px;
+    width: 400px;
+    margin-top: 10px;
+    padding-bottom: 10px; }
+
+  .wrap {
+    margin: 80px; } }
 h3.name1,
 h3.name2,
 h3.name3,
@@ -6877,7 +6904,8 @@ h3.name4,
 h3.name5,
 h3.name6,
 h3.name7,
-h3.name8 {
+h3.name8,
+h3.name9 {
   margin-top: 0px;
   font-size: 18px; }
 
@@ -6888,7 +6916,8 @@ h3.name8 {
 .box5.name5,
 .box6.name6,
 .box7.name7,
-.box8.name8 {
+.box8.name8,
+.box9.name9 {
   position: absolute;
   width: 20%;
   font-size: 70px;
@@ -6903,7 +6932,8 @@ h3.name8 {
 .box5 p,
 .box6 p,
 .box7 p,
-.box8 p {
+.box8 p,
+.box9 p {
   position: absolute;
   width: 100%;
   transform: translateX(200%);
@@ -6917,7 +6947,8 @@ h3.name8 {
 .box5.open5 > *,
 .box6.open6 > *,
 .box7.open7 > *,
-.box8.open8 > * {
+.box8.open8 > *,
+.box9.open9 > * {
   transform: translateX(0%); }
 
 /*@import "media";*/

@@ -59,6 +59,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
         hiddenBoxes[7].style.display = 'none';
+        hiddenBoxes[8].style.display = 'none';
         // socials.style.display = 'block';
         // const filtered = socials
         //   .map(social => social.style.display ='block');
@@ -88,6 +89,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
           hiddenBoxes[7].style.display = 'flex';
+          hiddenBoxes[8].style.display = 'flex';
         //  hiddenBoxes[0].style.display = 'block';
         }
 
@@ -126,6 +128,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
         hiddenBoxes[7].style.display = 'none';
+        hiddenBoxes[8].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -151,6 +154,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
           hiddenBoxes[7].style.display = 'flex';
+          hiddenBoxes[8].style.display = 'flex';
           //hiddenBoxes[1].style.display = 'block';
         }
 
@@ -188,6 +192,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
         hiddenBoxes[7].style.display = 'none';
+        hiddenBoxes[8].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -212,6 +217,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
           hiddenBoxes[7].style.display = 'flex';
+          hiddenBoxes[8].style.display = 'flex';
 
         }
 
@@ -251,6 +257,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[5].style.display = 'none';
         hiddenBoxes[6].style.display = 'none';
         hiddenBoxes[7].style.display = 'none';
+        hiddenBoxes[8].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -275,6 +282,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           hiddenBoxes[5].style.display = 'flex';
           hiddenBoxes[6].style.display = 'flex';
           hiddenBoxes[7].style.display = 'flex';
+          hiddenBoxes[8].style.display = 'flex';
         //  hiddenBoxes[3].style.display = 'block';
         }
 
@@ -316,6 +324,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[5].style.display = 'none';
       hiddenBoxes[6].style.display = 'none';
       hiddenBoxes[7].style.display = 'none';
+      hiddenBoxes[8].style.display = 'none';
 
       if(this.classList.contains(first)) {
         // switch them
@@ -340,6 +349,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[5].style.display = 'flex';
         hiddenBoxes[6].style.display = 'flex';
         hiddenBoxes[7].style.display = 'flex';
+        hiddenBoxes[8].style.display = 'flex';
         //hiddenBoxes[4].style.display = 'block';
       }
 
@@ -383,6 +393,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     hiddenBoxes[4].style.display = 'none';
     hiddenBoxes[6].style.display = 'none';
     hiddenBoxes[7].style.display = 'none';
+    hiddenBoxes[8].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -407,6 +418,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[4].style.display = 'flex';
       hiddenBoxes[6].style.display = 'flex';
       hiddenBoxes[7].style.display = 'flex';
+      hiddenBoxes[8].style.display = 'flex';
     }
 
     this.classList.toggle(first);
@@ -447,6 +459,7 @@ box7.addEventListener('click', function() {
   hiddenBoxes[4].style.display = 'none';
   hiddenBoxes[5].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
+  hiddenBoxes[8].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -471,6 +484,7 @@ box7.addEventListener('click', function() {
     hiddenBoxes[4].style.display = 'flex';
     hiddenBoxes[5].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
+    hiddenBoxes[8].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -510,6 +524,7 @@ box8.addEventListener('click', function() {
   hiddenBoxes[4].style.display = 'none';
   hiddenBoxes[5].style.display = 'none';
   hiddenBoxes[6].style.display = 'none';
+  hiddenBoxes[8].style.display = 'none';
 
 
   if(this.classList.contains(first)) {
@@ -536,6 +551,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[4].style.display = 'flex';
     hiddenBoxes[5].style.display = 'flex';
     hiddenBoxes[6].style.display = 'flex';
+    hiddenBoxes[8].style.display = 'flex';
 
 
     //hiddenBoxes[1].style.display = 'block';
@@ -546,3 +562,73 @@ box8.addEventListener('click', function() {
       this.classList.toggle(second);
     }, 250);
   });
+
+
+  /////////////////////////////
+  /////////////////////////////
+  ///////////////////////////// Image 9
+  /////////////////////////////
+  /////////////////////////////
+
+  const secImg9 = document.getElementById('secImg9');
+  secImg9.style.display = 'none';
+  const box9 = document.querySelector('.box9');
+  box9.style.display = 'flex';
+  box9.style.justifyContent = 'center';
+  box9.style.alignContent = 'center';
+  box9.style.alignItems = 'center';
+  box9.addEventListener('click', function() {
+    let first = 'opening9';
+    let second = 'open9';
+    secImg9.style.display = 'block';
+    secImg9.style.marginTop = '20%';
+    this.style.display = 'block';
+    container.style.display = 'block';
+    container.style.height = 'auto';
+    filtered[8].style.display = 'block';
+    // socials.style.display = 'block';
+    hiddenBoxes[0].style.display = 'none';
+    hiddenBoxes[1].style.display = 'none';
+    hiddenBoxes[2].style.display = 'none';
+    hiddenBoxes[3].style.display = 'none';
+    hiddenBoxes[4].style.display = 'none';
+    hiddenBoxes[5].style.display = 'none';
+    hiddenBoxes[6].style.display = 'none';
+    hiddenBoxes[7].style.display = 'none';
+
+
+    if(this.classList.contains(first)) {
+      // switch them
+      [first, second] = [second, first];
+
+      secImg9.style.display = 'none';
+      this.style.display = 'flex';
+      this.style.justifyContent = 'center';
+      this.style.alignContent = 'center';
+      this.style.alignItems = 'center';
+
+      container.style.display = 'flex';
+      container.style.justifyContent = 'space-around';
+      container.style.paddingTop = '50px';
+      container.style.paddingBottom = '50px';
+
+      filtered[8].style.display = 'none';
+
+      hiddenBoxes[0].style.display = 'flex';
+      hiddenBoxes[1].style.display = 'flex';
+      hiddenBoxes[2].style.display = 'flex';
+      hiddenBoxes[3].style.display = 'flex';
+      hiddenBoxes[4].style.display = 'flex';
+      hiddenBoxes[5].style.display = 'flex';
+      hiddenBoxes[6].style.display = 'flex';
+      hiddenBoxes[7].style.display = 'flex';
+
+
+      //hiddenBoxes[1].style.display = 'block';
+    }
+
+    this.classList.toggle(first);
+      setTimeout(() => {
+        this.classList.toggle(second);
+      }, 250);
+    });
