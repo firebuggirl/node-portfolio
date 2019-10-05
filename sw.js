@@ -1,6 +1,6 @@
 // Cache Static Resources
 //
-// var cacheName = 'hello-world-page';
+var cacheName = 'juliette-tworsey-portfolio';
 var filesToCache = [
   '/',
   '/index.html',
