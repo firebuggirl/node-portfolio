@@ -20,3 +20,5 @@
 - create `manifest.json` => static files served from the public folder => put manifest there..
 
 - link to `manifest.json` in header
+
+- NOTE: when testing in Chrome Dev Tools => applications/service workders => click `update on reload` => so service workers update on reload + `comment out service worker registration in layout.pug` until ready for production
