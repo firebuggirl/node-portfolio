@@ -20,7 +20,7 @@ block content
     .carousel-inner
       #videos.item.active
         h1 Music Videos
-        a(data-toggle='modal', href='#textModal')
+        a(data-toggle='modal', href='#textModal', aria-label="textModal")
           b.glyphicon.glyphicon-hd-video
       //
         <div class="item" id="single">
@@ -30,9 +30,9 @@ block content
         h1 Tunes
         a(data-toggle='modal', href='#albumModal')
           b.glyphicon.glyphicon-bullhorn
-  a.left.carousel-control(href='#myCarousel', data-slide='prev')
+  a.left.carousel-control(href='#myCarousel', data-slide='prev', aria-label="Carousel")
     span.icon-prev
-  a.right.carousel-control(href='#myCarousel', data-slide='next')
+  a.right.carousel-control(href='#myCarousel', data-slide='next', aria-label="Carousel")
     span.icon-next
 #textModal.modal.fade
   .modal-dialog
