@@ -3,7 +3,6 @@
 var cacheName = 'juliette-tworsey-portfolio';
 var filesToCache = [
   '/',
-  '/index.html',
   '/dist/style.css'
 ];self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
