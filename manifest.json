@@ -1,6 +1,6 @@
 {
   "name": "Juliette Tworsey PWA",
-  "short_name": "Hi",
+  "short_name": "JT PWA",
   "icons": [{
     "src": "icons/icon-128x128.png",
       "sizes": "128x128",
@@ -24,8 +24,10 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./",
+  "start_url": "https://juliettetworsey.com",
   "display": "standalone",
+  "description": "Blog and Resume for Juliette Tworsey",
+  "orientation": "any",
   "background_color": "#2d2b30",
   "theme_color": "#ff4500"
 }

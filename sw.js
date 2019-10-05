@@ -4,7 +4,7 @@
 var filesToCache = [
   '/',
   '/index.html',
-  '/style.css'
+  '/dist/style.css'
 ];self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
