@@ -63,12 +63,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 31);
+/******/ 	return __webpack_require__(__webpack_require__.s = 32);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -98,8 +97,8 @@ module.exports = function (module) {
 };
 
 /***/ }),
-
-/***/ 2:
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
@@ -108,8 +107,7 @@ module.exports = __webpack_amd_options__;
 /* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ }),
-
-/***/ 3:
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -160,22 +158,7 @@ $(document).ready(function () {
 });
 
 /***/ }),
-
-/***/ 31:
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(6);
-__webpack_require__(7);
-__webpack_require__(4);
-__webpack_require__(5);
-__webpack_require__(8);
-__webpack_require__(9);
-module.exports = __webpack_require__(3);
-
-
-/***/ }),
-
-/***/ 4:
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -678,8 +661,7 @@ if (!jQuery) throw new Error("Bootstrap requires jQuery");+function (a) {
 }(window.jQuery);
 
 /***/ }),
-
-/***/ 5:
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1375,8 +1357,7 @@ box9.addEventListener('click', function () {
 });
 
 /***/ }),
-
-/***/ 6:
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3785,8 +3766,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)(module)))
 
 /***/ }),
-
-/***/ 7:
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6013,8 +5993,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)(module)))
 
 /***/ }),
-
-/***/ 8:
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6657,8 +6636,7 @@ localStorage.init = function () {
 };
 
 /***/ }),
-
-/***/ 9:
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7392,7 +7370,65 @@ localStorage.init = function () {
 // })(jQuery);
 
 
-/***/ })
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/******/ });
+"use strict";
+
+
+// Cache Static Resources
+//
+var cacheName = 'juliette-tworsey-portfolio';
+var filesToCache = ['/', '/index.html', '/dist/style.css'];self.addEventListener('install', function (e) {
+  console.log('[ServiceWorker] Install');
+  e.waitUntil(caches.open(cacheName).then(function (cache) {
+    console.log('[ServiceWorker] Caching app shell');
+    return cache.addAll(filesToCache);
+  }));
+});self.addEventListener('activate', function (event) {
+  event.waitUntil(self.clients.claim());
+});self.addEventListener('fetch', function (event) {
+  event.respondWith(caches.match(event.request, { ignoreSearch: true }).then(function (response) {
+    return response || fetch(event.request);
+  }));
+});
+
+/***/ }),
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(6);
+__webpack_require__(7);
+__webpack_require__(4);
+__webpack_require__(5);
+__webpack_require__(8);
+__webpack_require__(9);
+__webpack_require__(3);
+module.exports = __webpack_require__(10);
+
+
+/***/ })
+/******/ ]);
 //# sourceMappingURL=App.bundle.js.map

@@ -11,7 +11,7 @@
   }
 `
 
-- @ `./` => create `sw.js`
+- @ `./public/js` => create `sw.js` => add to webpack
 
 - create an icon => save in sizes 128x128, 144x144, 152x152, 192x192, 512x512
 
