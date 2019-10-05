@@ -24,7 +24,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://juliettetworsey.com",
+  "start_url": "juliettetworsey.com",
   "display": "standalone",
   "description": "Blog and Resume for Juliette Tworsey",
   "orientation": "any",

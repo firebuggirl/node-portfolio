@@ -17,6 +17,6 @@
 
 
 
-- create `manifest.json`
+- create `manifest.json` => static files served from the public folder => put manifest there..
 
 - link to `manifest.json` in header
