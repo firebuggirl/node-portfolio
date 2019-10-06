@@ -1,5 +1,7 @@
 # PWA
 
+https://developers.google.com/web/ilt/pwa/introduction-to-service-worker
+
 - add/register worker:
 
   ` script.
@@ -22,3 +24,9 @@
 - link to `manifest.json` in header
 
 - NOTE: when testing in Chrome Dev Tools => applications/service workders => click `update on reload` => so service workers update on reload + `comment out service worker registration in layout.pug` until ready for production
+
+
+## Check this out:
+## Developing Progressive Web Apps (PWAs) Course
+
+https://codelabs.developers.google.com/dev-pwa-training/

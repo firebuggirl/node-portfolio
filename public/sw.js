@@ -69,3 +69,9 @@ self.addEventListener('activate', (event) => {
     })
   );
 });
+
+
+// intercept requests from our domain
+self.addEventListener('fetch', event => {
+  console.log('Fetching:', event.request.url);
+});
