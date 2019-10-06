@@ -24,8 +24,8 @@
       "type": "image/png"
     }
   ],
-  "scope": ".",
-  "start_url": ".",
+  "scope": "https://www.juliettetworsey.com/",
+  "start_url": "https://www.juliettetworsey.com/",
   "display": "standalone",
   "description": "Blog and Resume for Juliette Tworsey",
   "orientation": "any",
