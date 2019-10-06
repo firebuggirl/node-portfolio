@@ -24,6 +24,7 @@
       "type": "image/png"
     }
   ],
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "description": "Blog and Resume for Juliette Tworsey",
