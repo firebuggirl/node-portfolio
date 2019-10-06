@@ -6,7 +6,7 @@ self.addEventListener('install', (event) => {
       .then((cache) => {
         //[] of files to cache & if any of the file not present `addAll` will fail
         return cache.addAll([
-            "./"
+            "./", "./offline.pug"
         ])
         .then(() => {
           console.info('All files are cached');
@@ -75,3 +75,27 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', event => {
   console.log('Fetching:', event.request.url);
 });
+
+
+// add offline.pug to cache
+// https://blog.heroku.com/how-to-make-progressive-web-app
+ let addToCache = (request) => {
+  return caches.open("offline").then((cache) => {
+    return fetch(request).then((response) => {
+      console.log(response.url + " was cached");
+      return cache.put(request, response);
+    });
+  });
+};
+
+let returnFromCache = (request) => {
+  return caches.open("offline").then((cache) => {
+    return cache.match(request).then((matching) => {
+     if(!matching || matching.status == 404) {
+       return cache.match("offline.pug");
+     } else {
+       return matching;
+     }
+    });
+  });
+};

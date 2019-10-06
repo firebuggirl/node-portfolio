@@ -30,3 +30,24 @@ https://developers.google.com/web/ilt/pwa/introduction-to-service-worker
 ## Developing Progressive Web Apps (PWAs) Course
 
 https://codelabs.developers.google.com/dev-pwa-training/
+
+
+
+## Create offline.html as an Alias to index.html
+
+ - use Pug file instead....not sure if this will work...
+
+ https://blog.heroku.com/how-to-make-progressive-web-app
+
+
+- default => service worker code below will `render /offline.html` instead of any resource it can't fetch while offline. Create a file at `<your-scope>/offline.html` (in this case, pug):
+
+ ` cd views `
+
+ ` ln -s layout.pug offline.pug `
+
+ - add `offline.pug` to `sw.js`:
+
+ ` return cache.addAll([
+       "./", "./offline.pug"
+   ]) `

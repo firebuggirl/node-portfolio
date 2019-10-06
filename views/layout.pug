@@ -99,9 +99,16 @@ html.no-js(lang='en-us')
       ga('send', 'pageview');
 
     script.
-      if('serviceWorker' in navigator) {
+      // Script to register the service worker goes here
+      if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js')
-      .then(function() {
-      console.log('Service Worker Registered');
+      .then(registration => {
+      console.log('SW registered with scope:', registration.scope);
+      })
+      .catch(err => {
+      console.error('Registration failed:', err);
       });
+      });
+      }
       }
