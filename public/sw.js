@@ -6,7 +6,8 @@ self.addEventListener('install', (event) => {
       .then((cache) => {
         //[] of files to cache & if any of the file not present `addAll` will fail
         return cache.addAll([
-            "./", "./offline.pug"
+            "./",
+            "./offline.pug"
         ])
         .then(() => {
           console.info('All files are cached');
