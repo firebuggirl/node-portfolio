@@ -84,7 +84,7 @@ html.no-js(lang='en-us')
       //- script to register the service worker goes here
       if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/dist/sw.js')
+      navigator.serviceWorker.register('/sw.js')
       .then(registration => {
       console.log('SW registered with scope:', registration.scope);
       })
