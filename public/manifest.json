@@ -25,7 +25,7 @@
     }
   ],
   "scope": "/",
-  "start_url": "http://localhost:7777",
+  "start_url": "https://juliettetworsey.com",
   "display": "standalone",
   "description": "Blog and Resume for Juliette Tworsey",
   "orientation": "any",
