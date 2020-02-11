@@ -1,6 +1,5 @@
 ## This is the Node.js version of my portfolio
 
-
 * Build Webpack modules:
 
    ` npm run assets `
@@ -16,7 +15,7 @@
 
    https://github.com/firebuggirl/node-portfolio.git
 
-*   Deploy to Heroku:
+* Deploy to Heroku:
 
    ` git clone git@github.com:firebuggirl/node-portfolio `
 
