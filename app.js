@@ -13,7 +13,6 @@ const errorHandlers = require('./handlers/errorHandlers');
 
 const fs = require("fs");
 
-const fontawesome = require('@fortawesome/fontawesome-free');
 
 const pugBeautify = require('pug-beautify');
 const code = fs.readFileSync('views/layout.pug','utf8');
@@ -39,8 +38,6 @@ app.use(helmet());//get security report here: https://securityheaders.io/
 //     sandbox: ['allow-forms', 'allow-scripts']
 //   }
 // }));
-
-app.use('/stylesheets/fontawesome', express.static(__dirname + '/node_modules/@fortawesome/fontawesome-free/'));
 
 app.all('*',function(req,res,next){
   if((req.headers['x-forwarded-proto']!='https')&& (process.env.NODE_ENV === 'production')) {
