@@ -63,7 +63,7 @@
        },
        {
          "id":12,
-         "text":"<h1>MEAN CRUD</h1><h3>Task:</h3><p>Create a MEAN Stack CRUD application and deploy to Heroku, Azure, and Digital Ocean.</p><h4>Tools and Methods used:</h4><br><li>Angular 6 CLI</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Auth0</li><li>Docker</li><li>Azure CLI</li><li>Ssh-keygen</li><li>Digital Ocean Droplet Cloud Computing</li>"
+         "text":"<h1>MEAN CRUD</h1><h3>Task:</h3><p>Create a MEAN Stack CRUD application with Auth0 and deploy to Heroku</p><h4>Tools and Methods used:</h4><br><li>Angular 9 CLI</li><li>Node.js</li><li>Auth0</li><li>Express.js</li><li>MongoDB</li><li>Docker</li>"
 
        },
 

@@ -1,5 +1,10 @@
 ## This is the Node.js version of my portfolio
 
+## Note
+
+- before re-deploying to Heroku => first run:
+
+  `npm run dev` => save/recompile files to `dist` => then push to Heroku
 
 * Build Webpack modules:
 
