@@ -769,6 +769,7 @@ box.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
   // socials.style.display = 'block';
   // const filtered = socials
   //   .map(social => social.style.display ='block');
@@ -802,6 +803,7 @@ box.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
     //  hiddenBoxes[0].style.display = 'block';
   }
 
@@ -812,7 +814,7 @@ box.addEventListener('click', function () {
 });
 
 //////////////////////////
-////////////////////////// MongoDB Basics
+////////////////////////// MongoDB Basics => Index 1
 
 var secImg2 = document.getElementById('secImg2');
 secImg2.style.display = 'none';
@@ -841,6 +843,7 @@ box2.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref2 = [second, first];
@@ -871,6 +874,7 @@ box2.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
     //hiddenBoxes[1].style.display = 'block';
   }
 
@@ -881,7 +885,7 @@ box2.addEventListener('click', function () {
 });
 
 /////////////////////////////
-///////////////////////////// MongoDB for Node.js
+///////////////////////////// MongoDB for Node.js => Index 2
 
 var secImg3 = document.getElementById('secImg3');
 secImg3.style.display = 'none';
@@ -911,6 +915,7 @@ box3.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref3 = [second, first];
@@ -940,6 +945,7 @@ box3.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -948,7 +954,7 @@ box3.addEventListener('click', function () {
   }, 250);
 });
 
-///////////////////////
+/////////////////////// Index 3
 /////////////////////// Treehouse Front End Tech Degree
 
 var secImg4 = document.getElementById('secImg4');
@@ -980,6 +986,7 @@ box4.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref4 = [second, first];
@@ -1009,6 +1016,7 @@ box4.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
     //  hiddenBoxes[3].style.display = 'block';
   }
 
@@ -1018,7 +1026,7 @@ box4.addEventListener('click', function () {
   }, 250);
 });
 
-//////////////////////////
+////////////////////////// Index 4
 ////////////////////////// MongoDB Performance
 
 var secImg5 = document.getElementById('secImg5');
@@ -1051,6 +1059,7 @@ box5.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref5 = [second, first];
@@ -1080,6 +1089,7 @@ box5.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
     //hiddenBoxes[4].style.display = 'block';
   }
 
@@ -1090,7 +1100,7 @@ box5.addEventListener('click', function () {
 });
 
 /////////////////////////////
-/////////////////////////////
+///////////////////////////// Index 5
 ///////////////////////////// KUBERNETES
 
 
@@ -1123,6 +1133,7 @@ box6.addEventListener('click', function () {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref6 = [second, first];
@@ -1152,6 +1163,7 @@ box6.addEventListener('click', function () {
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -1161,7 +1173,7 @@ box6.addEventListener('click', function () {
 });
 
 /////////////////////////////
-/////////////////////////////
+///////////////////////////// Index 6
 ///////////////////////////// DOCKER
 
 var secImg7 = document.getElementById('secImg7');
@@ -1193,6 +1205,7 @@ box7.addEventListener('click', function () {
   hiddenBoxes[5].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref7 = [second, first];
@@ -1222,6 +1235,7 @@ box7.addEventListener('click', function () {
     hiddenBoxes[5].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
   }
 
   this.classList.toggle(first);
@@ -1231,7 +1245,7 @@ box7.addEventListener('click', function () {
 });
 
 /////////////////////////////
-/////////////////////////////
+///////////////////////////// Index 7
 ///////////////////////////// MongoDB Basic Cluster Administration
 
 
@@ -1262,6 +1276,7 @@ box8.addEventListener('click', function () {
   hiddenBoxes[5].style.display = 'none';
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref8 = [second, first];
@@ -1292,6 +1307,7 @@ box8.addEventListener('click', function () {
     hiddenBoxes[5].style.display = 'flex';
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[8].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
 
     //hiddenBoxes[1].style.display = 'block';
   }
@@ -1303,9 +1319,9 @@ box8.addEventListener('click', function () {
 });
 
 /////////////////////////////
-/////////////////////////////
+///////////////////////////// Index 8
 ///////////////////////////// Image 9
-/////////////////////////////
+///////////////////////////// Docker for Node.js Developers
 /////////////////////////////
 
 var secImg9 = document.getElementById('secImg9');
@@ -1335,6 +1351,7 @@ box9.addEventListener('click', function () {
   hiddenBoxes[5].style.display = 'none';
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[7].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref9 = [second, first];
@@ -1365,6 +1382,7 @@ box9.addEventListener('click', function () {
     hiddenBoxes[5].style.display = 'flex';
     hiddenBoxes[6].style.display = 'flex';
     hiddenBoxes[7].style.display = 'flex';
+    hiddenBoxes[9].style.display = 'flex';
 
     //hiddenBoxes[1].style.display = 'block';
   }
@@ -1372,6 +1390,82 @@ box9.addEventListener('click', function () {
   this.classList.toggle(first);
   setTimeout(function () {
     _this9.classList.toggle(second);
+  }, 250);
+});
+
+/////////////////////////////
+/////////////////////////////
+///////////////////////////// Image 10 - MongoDB Data Modeling
+///////////////////////////// Index 10
+/////////////////////////////
+
+var secImg10 = document.getElementById('secImg10');
+secImg10.style.display = 'none';
+var box10 = document.querySelector('.box10');
+box10.style.display = 'flex';
+box10.style.justifyContent = 'center';
+box10.style.alignContent = 'center';
+box10.style.alignItems = 'center';
+box10.addEventListener('click', function () {
+  var _this10 = this;
+
+  var first = 'opening10';
+  var second = 'open10';
+  secImg10.style.display = 'block';
+  secImg10.style.marginTop = '20%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+
+  filtered[9].style.display = 'block'; //index 9
+  // socials.style.display = 'block';
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
+  hiddenBoxes[7].style.display = 'none';
+  hiddenBoxes[8].style.display = 'none';
+
+  if (this.classList.contains(first)) {
+    var _ref10 = [second, first];
+    // switch them
+
+    first = _ref10[0];
+    second = _ref10[1];
+
+
+    secImg10.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
+
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+
+    filtered[9].style.display = 'none'; //index 9
+
+    hiddenBoxes[0].style.display = 'flex';
+    hiddenBoxes[1].style.display = 'flex';
+    hiddenBoxes[2].style.display = 'flex';
+    hiddenBoxes[3].style.display = 'flex';
+    hiddenBoxes[4].style.display = 'flex';
+    hiddenBoxes[5].style.display = 'flex';
+    hiddenBoxes[6].style.display = 'flex';
+    hiddenBoxes[7].style.display = 'flex';
+    hiddenBoxes[8].style.display = 'flex';
+
+    //hiddenBoxes[1].style.display = 'block';
+  }
+
+  this.classList.toggle(first);
+  setTimeout(function () {
+    _this10.classList.toggle(second);
   }, 250);
 });
 

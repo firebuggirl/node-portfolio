@@ -12,8 +12,7 @@
 
   Watch Sass in separate terminal:
 
-  ` sass --watch public/sass/style.scss:public/dist/style.css
-  `
+  ` sass --watch public/sass/style.scss:public/dist/style.css `
 
 * Compile all files via Webpack during development:
 
