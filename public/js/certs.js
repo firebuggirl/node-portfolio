@@ -27,6 +27,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
             });
         console.log(hiddenBoxes);
 
+
 ////////////////////
 // /////////////////
 // First image => '0' index
@@ -47,10 +48,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         filtered[0].style.display = 'block';
         filtered[0].style.marginBottom = '10px';
 
-// const notZeroIndex = hiddenBoxes
-//   .filter(hiddenBox => hiddenBox !== hiddenBox[0]);
-//   notZeroIndex.style.display = 'none';
-
+        //hiddenBoxes.forEach(node => node.style.display = "none");
 
         hiddenBoxes[1].style.display = 'none';
         hiddenBoxes[2].style.display = 'none';
@@ -61,9 +59,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[7].style.display = 'none';
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
-        // socials.style.display = 'block';
-        // const filtered = socials
-        //   .map(social => social.style.display ='block');
+        hiddenBoxes[10].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -82,17 +78,9 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
 
           filtered[0].style.display = 'none';
 
+          hiddenBoxes.forEach(node => node.style.display = "flex");
 
-          hiddenBoxes[1].style.display = 'flex';
-          hiddenBoxes[2].style.display = 'flex';
-          hiddenBoxes[3].style.display = 'flex';
-          hiddenBoxes[4].style.display = 'flex';
-          hiddenBoxes[5].style.display = 'flex';
-          hiddenBoxes[6].style.display = 'flex';
-          hiddenBoxes[7].style.display = 'flex';
-          hiddenBoxes[8].style.display = 'flex';
-          hiddenBoxes[9].style.display = 'flex';
-        //  hiddenBoxes[0].style.display = 'block';
+
         }
 
         this.classList.toggle(first);
@@ -122,7 +110,9 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         container.style.display = 'block';
         container.style.height = 'auto';
         filtered[1].style.display = 'block';
-        // socials.style.display = 'block';
+
+        //hiddenBoxes.forEach(node => node.style.display = "flex");
+
         hiddenBoxes[0].style.display = 'none';
         hiddenBoxes[2].style.display = 'none';
         hiddenBoxes[3].style.display = 'none';
@@ -132,6 +122,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[7].style.display = 'none';
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
+        hiddenBoxes[10].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -150,16 +141,8 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
 
           filtered[1].style.display = 'none';
 
-          hiddenBoxes[0].style.display = 'flex';
-          hiddenBoxes[2].style.display = 'flex';
-          hiddenBoxes[3].style.display = 'flex';
-          hiddenBoxes[4].style.display = 'flex';
-          hiddenBoxes[5].style.display = 'flex';
-          hiddenBoxes[6].style.display = 'flex';
-          hiddenBoxes[7].style.display = 'flex';
-          hiddenBoxes[8].style.display = 'flex';
-          hiddenBoxes[9].style.display = 'flex';
-          //hiddenBoxes[1].style.display = 'block';
+          hiddenBoxes.forEach(node => node.style.display = "flex");
+
         }
 
         this.classList.toggle(first);
@@ -188,7 +171,9 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         container.style.height = 'auto';
         filtered[2].style.display = 'block';
         filtered[2].style.marginBottom = '0px';
-        // socials.style.display = 'block';
+
+        //hiddenBoxes.forEach(node => node.style.display = "flex");
+
         hiddenBoxes[0].style.display = 'none';
         hiddenBoxes[1].style.display = 'none';
         hiddenBoxes[3].style.display = 'none';
@@ -198,6 +183,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[7].style.display = 'none';
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
+        hiddenBoxes[10].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -215,15 +201,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           container.style.paddingBottom = '50px';
           filtered[2].style.display = 'none';
 
-          hiddenBoxes[0].style.display = 'flex';
-          hiddenBoxes[1].style.display = 'flex';
-          hiddenBoxes[3].style.display = 'flex';
-          hiddenBoxes[4].style.display = 'flex';
-          hiddenBoxes[5].style.display = 'flex';
-          hiddenBoxes[6].style.display = 'flex';
-          hiddenBoxes[7].style.display = 'flex';
-          hiddenBoxes[8].style.display = 'flex';
-          hiddenBoxes[9].style.display = 'flex';
+          hiddenBoxes.forEach(node => node.style.display = "flex");
 
         }
 
@@ -256,6 +234,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         container.style.height = 'auto';
         filtered[3].style.display = 'block';
 
+        //hiddenBoxes.forEach(node => node.style.display = "none");
         hiddenBoxes[0].style.display = 'none';
         hiddenBoxes[1].style.display = 'none';
         hiddenBoxes[2].style.display = 'none';
@@ -265,6 +244,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[7].style.display = 'none';
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
+        hiddenBoxes[10].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -280,18 +260,15 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
           container.style.justifyContent = 'space-around';
           container.style.paddingTop = '50px';
           container.style.paddingBottom = '50px';
+
           filtered[3].style.display = 'none';
 
-          hiddenBoxes[0].style.display = 'flex';
-          hiddenBoxes[1].style.display = 'flex';
-          hiddenBoxes[2].style.display = 'flex';
-          hiddenBoxes[4].style.display = 'flex';
-          hiddenBoxes[5].style.display = 'flex';
-          hiddenBoxes[6].style.display = 'flex';
-          hiddenBoxes[7].style.display = 'flex';
-          hiddenBoxes[8].style.display = 'flex';
-          hiddenBoxes[9].style.display = 'flex';
-        //  hiddenBoxes[3].style.display = 'block';
+          // if(hiddenBoxes !== hiddenBoxes[3]){
+          //   hiddenBoxes.style.display = 'flex';
+          // }
+
+          hiddenBoxes.forEach(node => node.style.display = "flex");
+
         }
 
         this.classList.toggle(first);
@@ -325,6 +302,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       filtered[4].style.display = 'block';
       filtered[4].style.marginBottom = '10px';
 
+      //hiddenBoxes.forEach(node => node.style.display = "none");
       hiddenBoxes[0].style.display = 'none';
       hiddenBoxes[1].style.display = 'none';
       hiddenBoxes[2].style.display = 'none';
@@ -334,6 +312,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[7].style.display = 'none';
       hiddenBoxes[8].style.display = 'none';
       hiddenBoxes[9].style.display = 'none';
+      hiddenBoxes[10].style.display = 'none';
 
       if(this.classList.contains(first)) {
         // switch them
@@ -349,18 +328,11 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         container.style.justifyContent = 'space-around';
         container.style.paddingTop = '50px';
         container.style.paddingBottom = '50px';
+
         filtered[4].style.display = 'none';
 
-        hiddenBoxes[0].style.display = 'flex';
-        hiddenBoxes[1].style.display = 'flex';
-        hiddenBoxes[2].style.display = 'flex';
-        hiddenBoxes[3].style.display = 'flex';
-        hiddenBoxes[5].style.display = 'flex';
-        hiddenBoxes[6].style.display = 'flex';
-        hiddenBoxes[7].style.display = 'flex';
-        hiddenBoxes[8].style.display = 'flex';
-        hiddenBoxes[9].style.display = 'flex';
-        //hiddenBoxes[4].style.display = 'block';
+        hiddenBoxes.forEach(node => node.style.display = "flex");
+
       }
 
       this.classList.toggle(first);
@@ -396,6 +368,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     container.style.height = 'auto';
     filtered[5].style.display = 'block';
 
+    //hiddenBoxes.forEach(node => node.style.display = "none");
     hiddenBoxes[0].style.display = 'none';
     hiddenBoxes[1].style.display = 'none';
     hiddenBoxes[2].style.display = 'none';
@@ -405,6 +378,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[8].style.display = 'none';
     hiddenBoxes[9].style.display = 'none';
+    hiddenBoxes[10].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -420,17 +394,12 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       container.style.justifyContent = 'space-around';
       container.style.paddingTop = '50px';
       container.style.paddingBottom = '50px';
+
       filtered[5].style.display = 'none';
 
-      hiddenBoxes[0].style.display = 'flex';
-      hiddenBoxes[1].style.display = 'flex';
-      hiddenBoxes[2].style.display = 'flex';
-      hiddenBoxes[3].style.display = 'flex';
-      hiddenBoxes[4].style.display = 'flex';
-      hiddenBoxes[6].style.display = 'flex';
-      hiddenBoxes[7].style.display = 'flex';
-      hiddenBoxes[8].style.display = 'flex';
-      hiddenBoxes[9].style.display = 'flex';
+
+      hiddenBoxes.forEach(node => node.style.display = "flex");
+
     }
 
     this.classList.toggle(first);
@@ -464,6 +433,8 @@ box7.addEventListener('click', function() {
   container.style.height = 'auto';
   filtered[6].style.display = 'block';
 
+  //hiddenBoxes.forEach(node => node.style.display = "none");
+
   hiddenBoxes[0].style.display = 'none';
   hiddenBoxes[1].style.display = 'none';
   hiddenBoxes[2].style.display = 'none';
@@ -473,6 +444,7 @@ box7.addEventListener('click', function() {
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
+  hiddenBoxes[10].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -488,17 +460,11 @@ box7.addEventListener('click', function() {
     container.style.justifyContent = 'space-around';
     container.style.paddingTop = '50px';
     container.style.paddingBottom = '50px';
+
     filtered[6].style.display = 'none';
 
-    hiddenBoxes[0].style.display = 'flex';
-    hiddenBoxes[1].style.display = 'flex';
-    hiddenBoxes[2].style.display = 'flex';
-    hiddenBoxes[3].style.display = 'flex';
-    hiddenBoxes[4].style.display = 'flex';
-    hiddenBoxes[5].style.display = 'flex';
-    hiddenBoxes[7].style.display = 'flex';
-    hiddenBoxes[8].style.display = 'flex';
-    hiddenBoxes[9].style.display = 'flex';
+    hiddenBoxes.forEach(node => node.style.display = "flex");
+
   }
 
   this.classList.toggle(first);
@@ -530,7 +496,9 @@ box8.addEventListener('click', function() {
   container.style.display = 'block';
   container.style.height = 'auto';
   filtered[7].style.display = 'block';
-  // socials.style.display = 'block';
+
+  //hiddenBoxes.forEach(node => node.style.display = "none");
+
   hiddenBoxes[0].style.display = 'none';
   hiddenBoxes[1].style.display = 'none';
   hiddenBoxes[2].style.display = 'none';
@@ -540,7 +508,7 @@ box8.addEventListener('click', function() {
   hiddenBoxes[6].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
-
+  hiddenBoxes[10].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -559,18 +527,8 @@ box8.addEventListener('click', function() {
 
     filtered[7].style.display = 'none';
 
-    hiddenBoxes[0].style.display = 'flex';
-    hiddenBoxes[1].style.display = 'flex';
-    hiddenBoxes[2].style.display = 'flex';
-    hiddenBoxes[3].style.display = 'flex';
-    hiddenBoxes[4].style.display = 'flex';
-    hiddenBoxes[5].style.display = 'flex';
-    hiddenBoxes[6].style.display = 'flex';
-    hiddenBoxes[8].style.display = 'flex';
-    hiddenBoxes[9].style.display = 'flex';
+    hiddenBoxes.forEach(node => node.style.display = "flex");
 
-
-    //hiddenBoxes[1].style.display = 'block';
   }
 
   this.classList.toggle(first);
@@ -579,12 +537,10 @@ box8.addEventListener('click', function() {
     }, 250);
   });
 
-
-  /////////////////////////////
   ///////////////////////////// Index 8
   ///////////////////////////// Image 9
   ///////////////////////////// Docker for Node.js Developers
-  /////////////////////////////
+
 
   const secImg9 = document.getElementById('secImg9');
   secImg9.style.display = 'none';
@@ -602,7 +558,8 @@ box8.addEventListener('click', function() {
     container.style.display = 'block';
     container.style.height = 'auto';
     filtered[8].style.display = 'block';
-    // socials.style.display = 'block';
+
+    //hiddenBoxes.forEach(node => node.style.display = "none");
     hiddenBoxes[0].style.display = 'none';
     hiddenBoxes[1].style.display = 'none';
     hiddenBoxes[2].style.display = 'none';
@@ -612,7 +569,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[6].style.display = 'none';
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[9].style.display = 'none';
-
+    hiddenBoxes[10].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -631,18 +588,7 @@ box8.addEventListener('click', function() {
 
       filtered[8].style.display = 'none';
 
-      hiddenBoxes[0].style.display = 'flex';
-      hiddenBoxes[1].style.display = 'flex';
-      hiddenBoxes[2].style.display = 'flex';
-      hiddenBoxes[3].style.display = 'flex';
-      hiddenBoxes[4].style.display = 'flex';
-      hiddenBoxes[5].style.display = 'flex';
-      hiddenBoxes[6].style.display = 'flex';
-      hiddenBoxes[7].style.display = 'flex';
-      hiddenBoxes[9].style.display = 'flex';
-
-
-      //hiddenBoxes[1].style.display = 'block';
+      hiddenBoxes.forEach(node => node.style.display = "flex");
     }
 
     this.classList.toggle(first);
@@ -654,7 +600,7 @@ box8.addEventListener('click', function() {
     /////////////////////////////
   /////////////////////////////
   ///////////////////////////// Image 10 - MongoDB Data Modeling
-  ///////////////////////////// Index 10
+  ///////////////////////////// Index 9
   /////////////////////////////
 
   const secImg10 = document.getElementById('secImg10');
@@ -674,7 +620,8 @@ box8.addEventListener('click', function() {
     container.style.height = 'auto';
 
     filtered[9].style.display = 'block';//index 9
-    // socials.style.display = 'block';
+
+    //hiddenBoxes.forEach(node => node.style.display = "none");
     hiddenBoxes[0].style.display = 'none';
     hiddenBoxes[1].style.display = 'none';
     hiddenBoxes[2].style.display = 'none';
@@ -684,7 +631,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[6].style.display = 'none';
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[8].style.display = 'none';
-
+    hiddenBoxes[10].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -703,18 +650,12 @@ box8.addEventListener('click', function() {
 
       filtered[9].style.display = 'none';//index 9
 
-      hiddenBoxes[0].style.display = 'flex';
-      hiddenBoxes[1].style.display = 'flex';
-      hiddenBoxes[2].style.display = 'flex';
-      hiddenBoxes[3].style.display = 'flex';
-      hiddenBoxes[4].style.display = 'flex';
-      hiddenBoxes[5].style.display = 'flex';
-      hiddenBoxes[6].style.display = 'flex';
-      hiddenBoxes[7].style.display = 'flex';
-      hiddenBoxes[8].style.display = 'flex';
+      // if(hiddenBoxes !== hiddenBoxes[9]){
+      //   hiddenBoxes.style.display = 'flex';
+      // }
 
+      hiddenBoxes.forEach(node => node.style.display = "flex");
 
-      //hiddenBoxes[1].style.display = 'block';
     }
 
     this.classList.toggle(first);
@@ -722,3 +663,66 @@ box8.addEventListener('click', function() {
         this.classList.toggle(second);
       }, 250);
     });
+
+  ///////////////////////////// Image 11- MongoDB Diagnostics and debugging
+  ///////////////////////////// Index 10
+
+
+  const secImg11 = document.getElementById('secImg11');
+  secImg11.style.display = 'none';
+  const box11 = document.querySelector('.box11');
+  box11.style.display = 'flex';
+  box11.style.justifyContent = 'center';
+  box11.style.alignContent = 'center';
+  box11.style.alignItems = 'center';
+  box11.addEventListener('click', function() {
+    let first = 'opening11';
+    let second = 'open11';
+    secImg11.style.display = 'block';
+    secImg11.style.marginTop = '20%';
+    this.style.display = 'block';
+    container.style.display = 'block';
+    container.style.height = 'auto';
+
+    filtered[10].style.display = 'block';//index 10
+
+    //hiddenBoxes.forEach(node => node.style.display = "none");
+
+    hiddenBoxes[0].style.display = 'none';
+    hiddenBoxes[1].style.display = 'none';
+    hiddenBoxes[2].style.display = 'none';
+    hiddenBoxes[3].style.display = 'none';
+    hiddenBoxes[4].style.display = 'none';
+    hiddenBoxes[5].style.display = 'none';
+    hiddenBoxes[6].style.display = 'none';
+    hiddenBoxes[7].style.display = 'none';
+    hiddenBoxes[8].style.display = 'none';
+    hiddenBoxes[9].style.display = 'none';
+
+    if(this.classList.contains(first)) {
+      // switch them
+      [first, second] = [second, first];
+
+      secImg11.style.display = 'none';
+      this.style.display = 'flex';
+      this.style.justifyContent = 'center';
+      this.style.alignContent = 'center';
+      this.style.alignItems = 'center';
+
+      container.style.display = 'flex';
+      container.style.justifyContent = 'space-around';
+      container.style.paddingTop = '50px';
+      container.style.paddingBottom = '50px';
+
+      filtered[10].style.display = 'none';//index 10
+
+      hiddenBoxes.forEach(node => node.style.display = "flex");
+
+    }
+
+    this.classList.toggle(first);
+      setTimeout(() => {
+        this.classList.toggle(second);
+      }, 250);
+    });
+

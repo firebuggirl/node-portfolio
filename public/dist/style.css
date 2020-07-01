@@ -6735,7 +6735,8 @@ h1.certsh1 {
 .box7,
 .box8,
 .box9,
-.box10 {
+.box10,
+.box11 {
   background: #46200c center fixed no-repeat;
   width: 150px;
   height: 150px;
@@ -6747,7 +6748,9 @@ h1.certsh1 {
 .box6 .socialCerts, .box7 .socialCerts {
   margin-left: 2%; }
 
-.box8 .socialCerts {
+.box8 .socialCerts,
+.box9 .socialCerts,
+.box11 .socialCerts {
   margin-top: 10px; }
 
 .box.opening,
@@ -6758,13 +6761,15 @@ h1.certsh1 {
 .box6.opening6,
 .box7.opening7,
 .box8.opening8,
-.box10.opening10 {
+.box10.opening10,
+.box11.opening11 {
   width: 500px;
   height: 661px;
   margin-top: 100px;
   padding-bottom: 100px; }
 
-.box9.opening9 {
+.box9.opening9,
+.box11.opening11 {
   width: 500px;
   height: 561px;
   margin-top: 100px;
@@ -6778,11 +6783,12 @@ h1.certsh1 {
   .box5.opening5,
   .box6.opening6,
   .box7.opening7,
-  .box9.opening9 {
+  .box9.opening9,
+  .box10.opening10,
+  .box11.opening11 {
     height: 350px; }
 
-  .box8.opening8,
-  .box10.opening10 {
+  .box8.opening8 {
     height: 390px; } }
 @media screen and (max-width: 480px) {
   .box.opening,
@@ -6794,6 +6800,12 @@ h1.certsh1 {
   .box7.opening7,
   .box9.opening9 {
     height: 380px;
+    width: 300px;
+    margin-top: 10px;
+    padding-bottom: 10px; }
+
+  .box11.opening11 {
+    height: 450px;
     width: 300px;
     margin-top: 10px;
     padding-bottom: 10px; }
@@ -6844,6 +6856,13 @@ h1.certsh1 {
     height: 460px;
     width: 400px;
     margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+
+  .box11.opening11 {
+    height: 580px;
+    width: 400px;
+    margin-top: 10px;
     padding-bottom: 10px; }
 
   .wrap {
@@ -6857,7 +6876,8 @@ h3.name6,
 h3.name7,
 h3.name8,
 h3.name9,
-h3.name10 {
+h3.name10,
+h3.name11 {
   margin-top: 0px;
   font-size: 18px; }
 
@@ -6870,7 +6890,8 @@ h3.name10 {
 .box7.name7,
 .box8.name8,
 .box9.name9,
-.box10.name10 {
+.box10.name10,
+.box11.name11 {
   position: absolute;
   width: 20%;
   font-size: 70px;
@@ -6887,7 +6908,8 @@ h3.name10 {
 .box7 p,
 .box8 p,
 .box9 p,
-.box10 p {
+.box10 p,
+.box11 p {
   position: absolute;
   width: 100%;
   transform: translateX(200%);
@@ -6903,7 +6925,8 @@ h3.name10 {
 .box7.open7 > *,
 .box8.open8 > *,
 .box9.open9 > *,
-.box10.open10 > * {
+.box10.open10 > *,
+.box11.open11 > * {
   transform: translateX(0%); }
 
 .secImg10 {
