@@ -768,6 +768,7 @@ box.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref = [second, first];
@@ -835,6 +836,7 @@ box2.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref2 = [second, first];
@@ -903,6 +905,7 @@ box3.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref3 = [second, first];
@@ -970,6 +973,7 @@ box4.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref4 = [second, first];
@@ -1043,6 +1047,7 @@ box5.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref5 = [second, first];
@@ -1113,6 +1118,7 @@ box6.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref6 = [second, first];
@@ -1183,6 +1189,7 @@ box7.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref7 = [second, first];
@@ -1252,6 +1259,7 @@ box8.addEventListener('click', function () {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref8 = [second, first];
@@ -1320,6 +1328,7 @@ box9.addEventListener('click', function () {
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref9 = [second, first];
@@ -1390,6 +1399,7 @@ box10.addEventListener('click', function () {
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref10 = [second, first];
@@ -1463,6 +1473,7 @@ box11.addEventListener('click', function () {
   hiddenBoxes[7].style.display = 'none';
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if (this.classList.contains(first)) {
     var _ref11 = [second, first];
@@ -1493,6 +1504,76 @@ box11.addEventListener('click', function () {
   this.classList.toggle(first);
   setTimeout(function () {
     _this11.classList.toggle(second);
+  }, 250);
+});
+
+///////////////////////////// Image 12- Kodekloud Linux Basics
+///////////////////////////// Index 11
+
+var secImg12 = document.getElementById('secImg12');
+secImg12.style.display = 'none';
+var box12 = document.querySelector('.box12');
+box12.style.display = 'flex';
+box12.style.justifyContent = 'center';
+box12.style.alignContent = 'center';
+box12.style.alignItems = 'center';
+box12.addEventListener('click', function () {
+  var _this12 = this;
+
+  var first = 'opening12';
+  var second = 'open12';
+  secImg12.style.display = 'block';
+  secImg12.style.marginTop = '0';
+  secImg12.style.marginBottom = '10%';
+  this.style.display = 'block';
+  container.style.display = 'block';
+  container.style.height = 'auto';
+
+  filtered[11].style.display = 'block'; //index 11
+
+  //hiddenBoxes.forEach(node => node.style.display = "none");
+
+  hiddenBoxes[0].style.display = 'none';
+  hiddenBoxes[1].style.display = 'none';
+  hiddenBoxes[2].style.display = 'none';
+  hiddenBoxes[3].style.display = 'none';
+  hiddenBoxes[4].style.display = 'none';
+  hiddenBoxes[5].style.display = 'none';
+  hiddenBoxes[6].style.display = 'none';
+  hiddenBoxes[7].style.display = 'none';
+  hiddenBoxes[8].style.display = 'none';
+  hiddenBoxes[9].style.display = 'none';
+  hiddenBoxes[10].style.display = 'none';
+
+  if (this.classList.contains(first)) {
+    var _ref12 = [second, first];
+    // switch them
+
+    first = _ref12[0];
+    second = _ref12[1];
+
+
+    secImg12.style.display = 'none';
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignContent = 'center';
+    this.style.alignItems = 'center';
+
+    container.style.display = 'flex';
+    container.style.justifyContent = 'space-around';
+    container.style.paddingTop = '50px';
+    container.style.paddingBottom = '50px';
+
+    filtered[11].style.display = 'none'; //index 11
+
+    hiddenBoxes.forEach(function (node) {
+      return node.style.display = "flex";
+    });
+  }
+
+  this.classList.toggle(first);
+  setTimeout(function () {
+    _this12.classList.toggle(second);
   }, 250);
 });
 

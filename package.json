@@ -41,9 +41,6 @@
   "engines": {
     "node": ">= 13.11.0"
   },
-  "now": {
-    "dotenv": "variables.env.now"
-  },
   "style": {
     "style": "dist/style.css"
   },

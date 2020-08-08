@@ -73,7 +73,7 @@
 
      https://devcenter.heroku.com/articles/automated-certificate-management
 
-   `heroku certs:auto:enable`
+   `heroku certs:auto:enable`//Hobby or above tier required for ACM
 
    * Check Status:
 

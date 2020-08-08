@@ -60,6 +60,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
         hiddenBoxes[10].style.display = 'none';
+        hiddenBoxes[11].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -123,6 +124,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
         hiddenBoxes[10].style.display = 'none';
+        hiddenBoxes[11].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -184,6 +186,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
         hiddenBoxes[10].style.display = 'none';
+        hiddenBoxes[11].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -245,6 +248,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
         hiddenBoxes[8].style.display = 'none';
         hiddenBoxes[9].style.display = 'none';
         hiddenBoxes[10].style.display = 'none';
+        hiddenBoxes[11].style.display = 'none';
 
         if(this.classList.contains(first)) {
           // switch them
@@ -313,6 +317,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
       hiddenBoxes[8].style.display = 'none';
       hiddenBoxes[9].style.display = 'none';
       hiddenBoxes[10].style.display = 'none';
+      hiddenBoxes[11].style.display = 'none';
 
       if(this.classList.contains(first)) {
         // switch them
@@ -379,6 +384,7 @@ const socials = Array.from(document.querySelectorAll('.socialCerts'));
     hiddenBoxes[8].style.display = 'none';
     hiddenBoxes[9].style.display = 'none';
     hiddenBoxes[10].style.display = 'none';
+    hiddenBoxes[11].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -445,6 +451,7 @@ box7.addEventListener('click', function() {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -509,6 +516,7 @@ box8.addEventListener('click', function() {
   hiddenBoxes[8].style.display = 'none';
   hiddenBoxes[9].style.display = 'none';
   hiddenBoxes[10].style.display = 'none';
+  hiddenBoxes[11].style.display = 'none';
 
   if(this.classList.contains(first)) {
     // switch them
@@ -570,6 +578,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[9].style.display = 'none';
     hiddenBoxes[10].style.display = 'none';
+    hiddenBoxes[11].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -632,6 +641,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[8].style.display = 'none';
     hiddenBoxes[10].style.display = 'none';
+    hiddenBoxes[11].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -698,6 +708,7 @@ box8.addEventListener('click', function() {
     hiddenBoxes[7].style.display = 'none';
     hiddenBoxes[8].style.display = 'none';
     hiddenBoxes[9].style.display = 'none';
+    hiddenBoxes[11].style.display = 'none';
 
     if(this.classList.contains(first)) {
       // switch them
@@ -726,3 +737,68 @@ box8.addEventListener('click', function() {
       }, 250);
     });
 
+
+  ///////////////////////////// Image 12- Kodekloud Linux Basics
+  ///////////////////////////// Index 11
+
+  const secImg12 = document.getElementById('secImg12');
+  secImg12.style.display = 'none';
+  const box12 = document.querySelector('.box12');
+  box12.style.display = 'flex';
+  box12.style.justifyContent = 'center';
+  box12.style.alignContent = 'center';
+  box12.style.alignItems = 'center';
+  box12.addEventListener('click', function() {
+    let first = 'opening12';
+    let second = 'open12';
+    secImg12.style.display = 'block';
+    secImg12.style.marginTop = '0';
+    secImg12.style.marginBottom = '10%';
+    this.style.display = 'block';
+    container.style.display = 'block';
+    container.style.height = 'auto';
+
+
+
+    filtered[11].style.display = 'block';//index 11
+
+    //hiddenBoxes.forEach(node => node.style.display = "none");
+
+    hiddenBoxes[0].style.display = 'none';
+    hiddenBoxes[1].style.display = 'none';
+    hiddenBoxes[2].style.display = 'none';
+    hiddenBoxes[3].style.display = 'none';
+    hiddenBoxes[4].style.display = 'none';
+    hiddenBoxes[5].style.display = 'none';
+    hiddenBoxes[6].style.display = 'none';
+    hiddenBoxes[7].style.display = 'none';
+    hiddenBoxes[8].style.display = 'none';
+    hiddenBoxes[9].style.display = 'none';
+    hiddenBoxes[10].style.display = 'none';
+
+    if(this.classList.contains(first)) {
+      // switch them
+      [first, second] = [second, first];
+
+      secImg12.style.display = 'none';
+      this.style.display = 'flex';
+      this.style.justifyContent = 'center';
+      this.style.alignContent = 'center';
+      this.style.alignItems = 'center';
+
+      container.style.display = 'flex';
+      container.style.justifyContent = 'space-around';
+      container.style.paddingTop = '50px';
+      container.style.paddingBottom = '50px';
+
+      filtered[11].style.display = 'none';//index 11
+
+      hiddenBoxes.forEach(node => node.style.display = "flex");
+
+    }
+
+    this.classList.toggle(first);
+      setTimeout(() => {
+        this.classList.toggle(second);
+      }, 250);
+    });
