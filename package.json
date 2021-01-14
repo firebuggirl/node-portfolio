@@ -39,7 +39,7 @@
     "url-loader": "^0.6.2"
   },
   "engines": {
-    "node": ">= 13.11.0"
+    "node": ">= v14.5.0"
   },
   "style": {
     "style": "dist/style.css"
