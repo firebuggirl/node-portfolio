@@ -60,4 +60,26 @@ git push heroku-20 master
 
 heroku open --remote heroku-20
 heroku logs --remote heroku-20
+
+```
+
+## Note: 
+
+- had to update via dashboard
+
+- then => redeploy
+
+```yaml
+git push heroku master
+heroku open 
+heroku logs 
+```
+
+## Rolling back
+
+```yaml
+# get release version of the last release w/ the previous stack:
+heroku releases
+
+heroku rollback v12 // ie., most recent version
 ```
