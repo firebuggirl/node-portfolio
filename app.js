@@ -29,6 +29,7 @@ try {
 
 // create Express app
 const app = express();
+app.locals.moment = require('moment');
 app.use(helmet());//get security report here: https://securityheaders.io/
 //app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
 // app.use(helmet.contentSecurityPolicy({
